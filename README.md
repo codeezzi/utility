@@ -94,7 +94,7 @@ Utility is meant to be a simple easy to use unit conversion website plus bunch o
 ---
 
 
-### TLDR of contributing.md(CONTRIBUTING.md):
+### TLDR of [contributing.md](CONTRIBUTING.md):
 
 - Ensure that no one is working on (or already completed) the tool you want to work on.
 - Use descriptive commit messages
