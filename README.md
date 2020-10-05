@@ -3,7 +3,7 @@ Utility is meant to be a simple easy to use unit conversion website plus bunch o
 
 ---
 
-**Note: Please read CONTRIBUTING.md before making any pull requests**
+**Note: Please read [CONTRIBUTING.md](CONTRIBUTING.md) before making any pull requests**
 
 ---
 
