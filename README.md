@@ -102,7 +102,7 @@ Utility is meant to be a simple easy to use unit conversion website plus bunch o
 - You can only use javascript.
 - After completing the tool add it to the navbar of the index.html file
 - **FOLLOW THE DIRECTORY STRUCTURE AND NAMING CONVENTION**
-- **UPDATE THE README AS YOU WORK ON A NEW TOOL**
+- **UPDATE THE `README.md` FILE AS YOU WORK ON A NEW TOOL**
 
 
 ## Contributing Guidelines
