@@ -1,0 +1,35 @@
+<html> 
+    <head> 
+        <title>Weight Converter</title> 
+        <link rel="stylesheet" href="weight.css">
+        <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
+        <script src="weight.js"></script>
+    </head> 
+    <body> 
+
+        <h2>Weight Converter</h2> 
+        <h3>Enter a value in the Kilograms field to convert :</h3> 
+  
+        <p> 
+
+            <label>Kilograms</label> 
+
+            <input id="Kilograms" 
+                   type="number" 
+                   placeholder="kilograms" 
+                   oninput="kiloweightConvert(this.value)" 
+                   onchange="kiloweightConvert(this.value)" /> 
+        </p> 
+<div>
+        <p>Pounds: <span id="Pounds"></span></p> 
+        <p>Ounces: <span id="Ounces"></span></p> 
+        <p>Grams: <span id="Grams"></span></p> 
+        <p>Stones: <span id="Stones"></span></p> 
+</div>
+    </body> 
+    <footer>
+      Author: Prakhar Jain
+      <br>
+      <a href="https://github.com/prakhar-ai">Github</a>
+    </footer>
+</html> 
