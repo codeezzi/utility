@@ -1,7 +1,16 @@
 function findPart(){
 	var tot = document.getElementById("tot1").value;
 	var perc = document.getElementById("perc1").value;
-	var ans = (tot * perc) / 100;
-	document.getElementById("ans1").innerHTML = (tot - ans);
-	document.getElementById("saved").innerHTML = ans;
+	if(perc<0){
+		document.getElementById("error").innerHTML = "Please provide a positive discount value";
+		document.getElementById("ans1").innerHTML = "";
+		document.getElementById("saved").innerHTML = "";
+	}
+
+	else{
+		var ans = (tot * perc) / 100;
+		document.getElementById("error").innerHTML = "";
+		document.getElementById("ans1").innerHTML = (tot - ans).toFixed(2);
+		document.getElementById("saved").innerHTML = ans.toFixed(2);
+	}
 }
