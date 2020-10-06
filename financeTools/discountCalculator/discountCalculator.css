@@ -1,0 +1,16 @@
+body{
+	background-color: rgba(173, 216, 230, 0.3);
+}
+.ans{
+	border: 4px; 
+	border-color: black; 
+	color: green;
+	font-weight: bold;
+	font-size: 18px;
+}
+div.ct1 {
+	background: rgba(176, 224, 230, 0.7); 
+	border-radius: 5px ;
+	padding: 10px; 
+	justify-content: center;
+}

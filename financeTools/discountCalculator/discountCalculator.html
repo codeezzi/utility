@@ -1,0 +1,63 @@
+<html> 
+    <head> 
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="theme-color" content="#6610f2">
+        <title>Discount Calculator</title> 
+        <link rel="stylesheet" href="discountCalculator.css">
+        <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!--Scripts-->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="discountCalculator.js"></script>
+    
+    </head> 
+    <body style="background-color: rgba(173, 216, 230, 0.3)"> 
+       <section style="align-items: center; margin: 5%;">
+        <h1 class="text-center" style="font-weight: bold; text-decoration: underline;">Percentage Calculator</h1> 
+        <br>
+        <div class="d-flex align-items-center text-center ct1" >
+        
+        <div >
+        <div style="margin-top:4px; align-items: center; justify-content: center;">
+            
+	          <label>Price before discount </label>
+            <input id="tot1" 
+                   type="number" 
+                   placeholder="Total"  step="0.01"
+            />
+	           <label> </label>
+
+             <br>
+             
+             <label>Discount: </label> 
+             <input id="perc1" type="number" placeholder="Discount" step="0.01"></input><span>%</span>
+          </div>
+             
+
+             <button class="btn btn-primary" style="margin: 3% "onClick="findPart()">Calculate</button>
+             <br>
+             <p><label style="font-weight: bold;font-size: 18;">Price after discount: </label>
+             <label id="ans1" class="ans"></label>
+           </p>
+            <p>
+              <label style="font-weight: bold;font-size: 18;">Your savings: </label>
+             <label id="saved" class="ans"></label>
+         
+        </div>
+      
+    </div>
+  </section>
+</body>
+<footer class="border-top px-4">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+      <a href="https://github.com/adata111">Ahana Datta</a>
+    </div>
+  </div>
+    </footer>
+</html>
