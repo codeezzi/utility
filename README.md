@@ -1,5 +1,5 @@
 # utility
-Utility is meant to be a simple easy to use unit conversion website plus bunch of utility tools. This will be a static website made completly from HTML,CSS and Javascript or any other Frontend Framwork. 
+Utility is meant to be a simple easy to use unit conversion website plus bunch of utility tools. This will be a static website made completely from HTML,CSS and Javascript or any other Frontend Framework. 
 
 ---
 
@@ -10,13 +10,13 @@ Utility is meant to be a simple easy to use unit conversion website plus bunch o
 ## Types of Tools to be Added
 
 - [Conversion tools](#Conversion-tools)
-- [Mathmetical Tools](#Mathmetical-Tools)
+- [Mathematical Tools](#Mathematical-Tools)
 - [Finance Tools](#Finance-Tools)
 - [Daily Use Tools](#Daily-Use-Tools)
 
 
 ### [Conversion tools](conversionTools)
-- [Temperture]
+- [Temperature]
 - [Length]
 - [weight]
 - [speed]
@@ -48,7 +48,7 @@ Utility is meant to be a simple easy to use unit conversion website plus bunch o
 - [resolution]
 - [charge]
 
-### [Mathmetical Tools](mathmeticalTools)
+### [Mathematical Tools](mathematicalTools)
 - [number base]
 - [number series]
 - [roman numericals]
@@ -67,7 +67,7 @@ Utility is meant to be a simple easy to use unit conversion website plus bunch o
 - [binary]
 
 ### [Finance Tools](financeTools)
-- [intrest calculator]
+- [interest calculator]
 - [compound interest calculator]
 - [return or investment calculator]
 - [stock return calculator]
@@ -83,7 +83,7 @@ Utility is meant to be a simple easy to use unit conversion website plus bunch o
 - [compass]
 - [morse convertor]
 - [scientific calculator]
-- [jwelery price]
+- [jewellery price]
 - [fuel cost]
 - [time zone]
 - [password generator]
