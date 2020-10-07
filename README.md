@@ -21,7 +21,7 @@ Utility is meant to be a simple easy to use unit conversion website plus bunch o
 - [Length]
 - [weight]
 - [speed]
-- [currency](conversionTools\currency)
+- [currency](conversionTools/currency/currency.html)
 - [time]
 - [area]
 - [fuel]
