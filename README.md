@@ -93,6 +93,9 @@ Utility is meant to be a simple easy to use unit conversion website plus bunch o
 
 ---
 
+# Glime of UI
+**HOME**
+![Screenshot](../master/home.png)
 
 ### TLDR of [contributing.md](CONTRIBUTING.md):
 

@@ -1,0 +1,7 @@
+.custom_shadow {
+  box-shadow: 10px 4px 40px 10px rgba(99, 99, 99, 0.47);
+}
+.custom_border {
+  margin: 1rem;
+  border: none;
+}
