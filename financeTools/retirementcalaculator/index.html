@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="currency.css" />
+  </head>
+  <body>
+    <a href="../../index.html" id="home__link">< Go back to Home</a>
+    <h1>Retirement Converter</h1>
+    <div>
+        <div class='hdr'>Initial Investment?</div>
+        <div class='info'>Current money you have invested or will invest immediately.</div>
+        <input type="text" value=0 id="current"/>
+      </div>
+      <div>
+        <div class='hdr'>How much do you want to make per year?</div>
+        <div class='info'>The amount of money you need to live per year.</div>
+        <input type="text" value=40000 id="amount"/>
+      </div>
+      <div>
+        <div class='hdr'>How many years until retirement?</div>
+        <div class='info'>How many years you are willing to save for.</div>
+        <input type="text" value=20 id="years"/>
+      </div>
+      <div>
+        <div class='hdr'>Draw (%)</div>
+        <div class='info'>The amount you are willing to draw down yearly (4% is common).</div>
+        <input type="text" value=4 id="draw"/>
+      </div>
+      <div>
+        <div class='hdr'>ROI (%)</div>
+        <div class='info'>How much you can earn on average per year.</div>
+        <input type="text" value=11.5 id="roi"/>
+      </div>
+      <div>
+        <div class='hdr'>Adjust for Inflation</div>
+        <div class='info'>Adjust the amount per year for inflation. (uses 3.15%)</div>
+        <input type="checkbox" checked id="inflation"/> Enable
+      </div>
+
+      <button type="button" onclick="computeNow()">
+      Compute
+      </button>
+      <div id="output" style="margin-top: 10px"></div>
+    <span id="credit">Made by PG</span>
+    <script src="retirement.js"></script>
+  </body>
+</html>
