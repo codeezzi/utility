@@ -1,0 +1,123 @@
+:root{
+    --theme:#6610f2;
+    --purple:blueviolet
+}
+body {
+    background-image: linear-gradient(var(--theme),var(--purple));
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    color:#fff;
+}
+.header h2{
+    color:#fff;
+text-align: center;
+font-size:3.3em;
+}
+.row {
+background-color: #000;
+  width: 80%;
+  margin: 4% auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.col {
+  flex-basis: 25%;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+.col img {
+  width: 100%;
+  cursor: pointer;
+  transition: transform 1s;
+}
+.col p {
+  margin: 20px;
+}
+.social-link a{
+    text-decoration: none;
+    width: 35px;
+    height: 35px;
+    color:#fff;
+}
+.social-link .fa {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border: 1px solid white;
+  margin: 0 7px;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+.social-link .fa:hover {
+  background: var(--theme);
+  color: white;
+  transform: translateY(-7px);
+}
+.col:hover img {
+  transform: scale(1.1);
+}
+.col span {
+  width: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-right: 15px solid #000;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+.col .arrow {
+  border-right: 15px solid transparent;
+  border-left: 15px solid #000;
+  right: unset;
+  left: 0;
+}
+@media screen and (max-width: 770px) {
+  .row {
+    width: 95%;
+  }
+  .col {
+    flex-basis: 50%;
+    font-size: 14px;
+  }
+  .header h2{
+      font-size: 30px;
+  }
+
+  .social-link .fa {
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+  }
+  .row .col:nth-child(1) {
+    order: 1;
+  }
+  .row .col:nth-child(2) {
+    order: 2;
+  }
+  .row .col:nth-child(3) {
+    order: 5;
+  }
+  .row .col:nth-child(4) {
+    order: 6;
+  }
+  .row .col:nth-child(5) {
+    order: 3;
+  }
+  .row .col:nth-child(6) {
+    order: 4;
+  }
+  .row .col:nth-child(7) {
+    order: 7;
+  }
+  .row .col:nth-child(8) {
+    order: 8;
+  }
+}
+footer .col-md-6{
+text-align: center;
+border-top:1px solid rgb(180, 175, 175);
+}
