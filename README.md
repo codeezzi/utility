@@ -1,5 +1,5 @@
 # utility
-Utility is meant to be a simple easy to use unit conversion website plus bunch of utility tools. This will be a static website made completly from HTML,CSS and Javascript or any other Frontend Framwork. 
+Utility is meant to be a simple easy to use unit conversion website plus bunch of utility tools. This will be a static website made completly from HTML,CSS and Javascript or any other Frontend Framwork.
 
 ---
 
@@ -71,7 +71,7 @@ Utility is meant to be a simple easy to use unit conversion website plus bunch o
 - [compound interest calculator]
 - [return or investment calculator]
 - [stock return calculator]
-- [retirement calculator]
+- [retirement calculator](financeTools/retirementcalaculator/index.html)
 - [mortage calculator]
 - [EMI calculator]
 - [service tax calculator]
@@ -110,16 +110,16 @@ Utility is meant to be a simple easy to use unit conversion website plus bunch o
 ### Follow the theme design/ Follow the design of `index.html` file.
 
 ### Folders and Files
-- Please make sure your folder is in any one of the Folder `conversionTools`,`mathmeticlaTools`,`financeTools` or `dailyUseTools`. For example if you want to work on length conversion tool then place your folder in the `conversionTools` folder. The list for tools with their respective folder is mentioned above 
+- Please make sure your folder is in any one of the Folder `conversionTools`,`mathmeticlaTools`,`financeTools` or `dailyUseTools`. For example if you want to work on length conversion tool then place your folder in the `conversionTools` folder. The list for tools with their respective folder is mentioned above
 - The name of your folder should be the name o the tool you are working on for example: if you want to work on length conversion tool, Then name your folder would be `length`.
 - Under your folder name your files as follows. For length conversion tool the files would be `length.html`, `length.css`,`length.js`
 - At the end link your files properly and also link your tool's
 html file to the navbar of the `index.html`
-- Add your name to the footer of your tool's html you are working on. For example if you are working on length conversion tool then  
+- Add your name to the footer of your tool's html you are working on. For example if you are working on length conversion tool then
 add your name in the footer of `lenght.html`.
 
 ### Opening Issues
-When you open an issue, please make sure the Tool is not already implemented. 
+When you open an issue, please make sure the Tool is not already implemented.
 Opened Issues by existing Problem will be closed & PR made to this Issue marked as **spam**
 The Contributor who opened an issue will be assigned/prefered to the issue. If there is no PR within about 7 Days the issue will be assigned to another Contributor.
 
@@ -160,4 +160,4 @@ git push origin branch-name
 * Your PR has to link the Issue.
 * Your Solution must be correct.
 
-__Thank You!__ 
+__Thank You!__
