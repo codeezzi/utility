@@ -7,6 +7,17 @@ function findPart(){
 		document.getElementById("saved").innerHTML = "";
 	}
 
+	else if(tot<0){
+		document.getElementById("error").innerHTML = "Price before discount can't be negative ";
+		document.getElementById("ans1").innerHTML = "";
+		document.getElementById("saved").innerHTML = "";
+	}
+
+	else if(perc>100){
+		document.getElementById("error").innerHTML = "Please enter a discount less than or equal to 100";
+		document.getElementById("ans1").innerHTML = "";
+		document.getElementById("saved").innerHTML = "";
+	}
 	else{
 		var ans = (tot * perc) / 100;
 		document.getElementById("error").innerHTML = "";
