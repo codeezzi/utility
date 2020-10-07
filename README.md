@@ -1,5 +1,6 @@
 # utility
-Utility is meant to be a simple easy to use unit conversion website plus bunch of utility tools. This will be a static website made completly from HTML,CSS and Javascript or any other Frontend Framwork. 
+
+Utility is meant to be a simple easy to use unit conversion website plus bunch of utility tools. This will be a static website made completly from HTML,CSS and Javascript or any other Frontend Framwork.
 
 ---
 
@@ -14,13 +15,13 @@ Utility is meant to be a simple easy to use unit conversion website plus bunch o
 - [Finance Tools](#Finance-Tools)
 - [Daily Use Tools](#Daily-Use-Tools)
 
-
 ### [Conversion tools](conversionTools)
+
 - [Temperture]
 - [Length]
 - [weight]
 - [speed]
-- [currency]
+- [currency](conversionTools\currency)
 - [time]
 - [area]
 - [fuel]
@@ -49,6 +50,7 @@ Utility is meant to be a simple easy to use unit conversion website plus bunch o
 - [charge]
 
 ### [Mathmetical Tools](mathmeticalTools)
+
 - [number base]
 - [number series]
 - [roman numericals]
@@ -67,6 +69,7 @@ Utility is meant to be a simple easy to use unit conversion website plus bunch o
 - [binary]
 
 ### [Finance Tools](financeTools)
+
 - [intrest calculator]
 - [compound interest calculator]
 - [return or investment calculator]
@@ -80,6 +83,7 @@ Utility is meant to be a simple easy to use unit conversion website plus bunch o
 - [fixed deposit calculator]
 
 ### [Daily Use Tools](dailyUseTools)
+
 - [compass]
 - [morse convertor]
 - [scientific calculator]
@@ -89,10 +93,9 @@ Utility is meant to be a simple easy to use unit conversion website plus bunch o
 - [password generator]
 - [BMI]
 
-*Feel free to suggest if important tools are missing.*
+_Feel free to suggest if important tools are missing._
 
 ---
-
 
 ### TLDR of [contributing.md](CONTRIBUTING.md):
 
@@ -104,60 +107,72 @@ Utility is meant to be a simple easy to use unit conversion website plus bunch o
 - **FOLLOW THE DIRECTORY STRUCTURE AND NAMING CONVENTION**
 - **UPDATE THE `README.md` FILE AS YOU WORK ON A NEW TOOL**
 
-
 ## Contributing Guidelines
 
 ### Follow the theme design/ Follow the design of `index.html` file.
 
 ### Folders and Files
-- Please make sure your folder is in any one of the Folder `conversionTools`,`mathmeticlaTools`,`financeTools` or `dailyUseTools`. For example if you want to work on length conversion tool then place your folder in the `conversionTools` folder. The list for tools with their respective folder is mentioned above 
+
+- Please make sure your folder is in any one of the Folder `conversionTools`,`mathmeticlaTools`,`financeTools` or `dailyUseTools`. For example if you want to work on length conversion tool then place your folder in the `conversionTools` folder. The list for tools with their respective folder is mentioned above
 - The name of your folder should be the name o the tool you are working on for example: if you want to work on length conversion tool, Then name your folder would be `length`.
 - Under your folder name your files as follows. For length conversion tool the files would be `length.html`, `length.css`,`length.js`
 - At the end link your files properly and also link your tool's
-html file to the navbar of the `index.html`
+  html file to the navbar of the `index.html`
 - Add your name to the footer of your tool's html you are working on. For example if you are working on length conversion tool then  
-add your name in the footer of `lenght.html`.
+  add your name in the footer of `lenght.html`.
 
 ### Opening Issues
-When you open an issue, please make sure the Tool is not already implemented. 
+
+When you open an issue, please make sure the Tool is not already implemented.
 Opened Issues by existing Problem will be closed & PR made to this Issue marked as **spam**
 The Contributor who opened an issue will be assigned/prefered to the issue. If there is no PR within about 7 Days the issue will be assigned to another Contributor.
 
 ### Pull Requests
+
 - Only Pull Requests **joined with an Issue** and matching the **naming-conventions** (See Folders and Files) will be merged!
 - If there is no Issue joined in the PR your PR will be labled as **spam** and closed.
 - If your code don't passes the Checks your PR will be labled as **"invalid"** and the Issue stays open for the next PR!
 - If your PR doesn't follow the Contributing Guidelines of this Repository it will be also marked as **spam** and closed!
 
 ## Getting Started
-* Fork this repository (Click the Fork button, top right of this page)
-* Clone your fork down to your local machine
+
+- Fork this repository (Click the Fork button, top right of this page)
+- Clone your fork down to your local machine
+
 ```markdown
 git clone https://github.com/your-username/utility.git
 ```
-* Comment to the Issue you want to work on - so I can assign you to it OR create a new Issue.
-* Create a branch for a new feature
+
+- Comment to the Issue you want to work on - so I can assign you to it OR create a new Issue.
+- Create a branch for a new feature
+
 ```markdown
 git checkout -b feature/branch-name
 ```
-* Or if its a bugfix to a file
+
+- Or if its a bugfix to a file
+
 ```markdown
 git checkout -b bugfix/branch-name
 ```
-* Make your changes (choose from the Tasks above!)
-* Commit and Push
+
+- Make your changes (choose from the Tasks above!)
+- Commit and Push
+
 ```markdown
 git add .
 git commit -m 'commit message'
 git push origin branch-name
 ```
-* Create a New Pull Request from your forked repository ( Click the 'New Pull Request' Button located at the top of your repo)
-* Wait for your PR review and merge approval!
-* __Star this repository__ if you had fun!
+
+- Create a New Pull Request from your forked repository ( Click the 'New Pull Request' Button located at the top of your repo)
+- Wait for your PR review and merge approval!
+- **Star this repository** if you had fun!
 
 ## Which PR will be accepted?
-* Ones you are assigned to.
-* Your PR has to link the Issue.
-* Your Solution must be correct.
 
-__Thank You!__ 
+- Ones you are assigned to.
+- Your PR has to link the Issue.
+- Your Solution must be correct.
+
+**Thank You!**
