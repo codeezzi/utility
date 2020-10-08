@@ -1,0 +1,23 @@
+div{
+  text-align: center;
+}
+
+img {
+  height: auto;
+  width: 400px;
+}
+
+td {
+  padding-top: 4%;
+}
+
+table {
+  margin: 0 auto;
+}
+
+
+.calculator {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+}
