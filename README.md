@@ -3,6 +3,10 @@ Utility is meant to be a simple easy to use unit conversion website plus bunch o
 
 ---
 
+**Note: Please Don't Make Any Changes In `index.html` AND `contributors.html` **
+
+---
+
 **Note: Please read [CONTRIBUTING.md](CONTRIBUTING.md) before making any pull requests**
 
 ---
