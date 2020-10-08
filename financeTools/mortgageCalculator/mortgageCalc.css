@@ -2,9 +2,13 @@ div{
   text-align: center;
 }
 
+nav {
+  background-color: black;
+}
+
 img {
   height: auto;
-  width: 400px;
+  width: 250px;
 }
 
 td {

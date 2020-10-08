@@ -1,7 +1,3 @@
-
-
-
-
 document.getElementById('submit').addEventListener('click', function(){
   // let amount = document.getElementById("amount").value;
   // let frequency = document.getElementById("frequency").value;
@@ -22,3 +18,7 @@ document.getElementById('submit').addEventListener('click', function(){
   document.getElementById('result').textContent="$" + payment.toFixed(2);
 
 })
+
+
+//add error handling for when a field is left blank
+//add field reset button
