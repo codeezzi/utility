@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Compound Interest Calculator </title>
+    <link rel="stylesheet" text="text/css" href="./compoundinterestcalculator.css" />
+    <link rel="javascript" href="./compoundinterestcalculator.js" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="inputs">
+            <label>Principal Amount</label>
+            <input type="text" name="principal" id="principal" />
+        </div>
+        <div class="inputs">
+            <label>Rate of Interest(in %)</label>
+            <input type="text" name="rate" id="rate" />
+        </div>
+        <div class="inputs">
+            <label>Time Involved in years</label>
+            <input type="text" name="time" id="time" />
+        </div>
+        <div class="inputs">
+            <label>Number of compounding periods per unit time</label>
+            <input type="text" name="part" id="part" />
+        </div>
+
+        <button class="btn-calculate" onclick="compoundInterest()">
+            Calculate
+        </button>
+
+        <div class="outputs">
+            <label>Accrued Amount</label>
+            <input type="text" name="cia" id="final-amount" />
+        </div>
+        <div class="outputs">
+            <label>Compund Interest</label>
+            <input type="text" name="cia1" id="compound" />
+        </div>
+    </div>
+
+    <script src="compoundinterestcalculator.js">
+    </script>
+</body>
+
+</html>

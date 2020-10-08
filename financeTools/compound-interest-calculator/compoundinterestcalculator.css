@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    padding: 50px;
+    background-color: bisque;
+}
+
+.inputs {
+    padding: 10px;
+}
+
+.outputs {
+    padding: 10px;
+}
+
+label {
+    padding-right: 20px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5em;
+    border: 1px solid #df8714;
+}
+
+.btn-calculate {
+    padding: 20px;
+    text-align: center;
+    border-radius: 15em;
+    background-color: #ce4d1a;
+    border: 2px solid #df8714;
+}
