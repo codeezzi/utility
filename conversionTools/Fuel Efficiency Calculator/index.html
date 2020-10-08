@@ -1,0 +1,14 @@
+<html>
+<head>
+<script src ="my.js"></script>
+</head>
+<body>
+<h1>Fuel Consumption Calculator</h1>
+<p>This is a simple form and mathematical result test</p>
+<p>Distance Driven (km):<input id="distance" type="number" min="150" max="1000000" onchange="computeConsumption()"></p>
+<p>Fuel Consumed (L):<input id="fuel" type="number" min="10" max="10000000" step="1" onchange="computeConsumption()"></p>
+<p>Cost of Fuel/Litre: ₹ <input id="costper" type="number" min="0.0" max="1000" step="1.0" value="" onchange="computeConsumption()"></p>
+<h2 id="consumption"></h2>
+
+</body>
+</html>
