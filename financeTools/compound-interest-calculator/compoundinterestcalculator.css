@@ -1,11 +1,13 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+.container1 {
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
-.container {
-    padding: 50px;
-    background-color: bisque;
+.calculator-compound {
+    padding-left: 250px;
+    padding-top: 20px;
+    padding-right: 250px;
+    padding-bottom: 50px;
 }
 
 .inputs {
@@ -24,9 +26,13 @@ input {
     padding: 10px;
     border-radius: 5em;
     border: 1px solid #df8714;
+    float: right;
 }
 
 .btn-calculate {
+    color: antiquewhite;
+    margin: 10px;
+    width: 100%;
     padding: 20px;
     text-align: center;
     border-radius: 15em;
