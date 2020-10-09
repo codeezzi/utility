@@ -1,0 +1,131 @@
+<html> 
+    <head> 
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="theme-color" content="#6610f2">
+      <link rel="icon" type="image/ico" href="../../favicon.ico"/>
+        <title>Discount Calculator</title> 
+        <link rel="stylesheet" href="discount.css">
+        <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!--Scripts-->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="discount.js"></script>
+    
+    </head> 
+    <body style="background-color: rgba(173, 216, 230, 0.3);
+  font-family: 'Multi', sans-serif;"> 
+      <nav class="site-header sticky-top py-1 text-light">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <a class="py-2 text-light" href="../../index.html">
+                <i class="fa fa-cogs fa-2x" aria-hidden="true"></i>
+            </a>
+
+            <div class="btn-group d-none d-md-block py-2">
+                <button type="button" class="btn btn-link text-light dropdown-toggle text-decoration-none" data-toggle="dropdown">Conversion Tools</button>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Demo</a>
+                </div>
+            </div>
+
+            <div class="btn-group d-none d-md-block py-2">
+                <button type="button" class="btn btn-link text-light dropdown-toggle text-decoration-none" data-toggle="dropdown">Daily Use Tools</button>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Demo</a>
+                </div>
+            </div>
+
+            <div class="btn-group d-none d-md-block py-2">
+                <button type="button" class="btn btn-link text-light dropdown-toggle text-decoration-none" data-toggle="dropdown">Finance Tools</button>
+                <div class="dropdown-menu">
+                    <a href="financeTools/discountCalculator/discountCalculator.html" class="dropdown-item">Discount Calculator</a>
+                </div>
+            </div>
+
+            <div class="btn-group d-none d-md-block py-2">
+                <button type="button" class="btn btn-link text-light dropdown-toggle text-decoration-none" data-toggle="dropdown">Mathmetical Tools</button>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Demo</a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <section class="hero-section overflow-hidden py-3 mb-3 text-center text-md-left text-light">
+        <div class="container-xl">
+          <div class="row">
+                <div class="col-0">
+<div class="hero-section__graphic position-relative m-auto">
+                        <svg class="hero-section__icon" height="569pt" viewBox="0 0 569 569.54905" width="569pt" xmlns="http://www.w3.org/2000/svg"><path d="M 240, 230
+                          a 25,25 0 1,1 50,0
+                          a 25,25 0 1,1 -50,0"
+                          />
+                        <path d="m396.3125 187.144531-208.902344 208.90325-13.429687-13.429687 208.90625-208.902310zm0 0"/>
+                        <path
+                          d="M 290, 330
+                            a 25,25 0 1,1 50,0
+                            a 25,25 0 1,1 -50,0"
+                        />
+                        </svg>
+                    </div></div>
+                    <div class="col align-self-center text-center">
+                    <h1 class="text-white mb-2">Discount Calculator</h1>
+                  </div>
+            </div>
+
+           </div>
+         </section>
+       <section style="align-items: center; margin: 5%; justify-content: center;">
+        
+        <div class=" align-items-center align-self-center text-center ct1" >
+        
+        <div class="cont">
+        <div style="margin-top:4px; align-items: center; justify-content: center;">
+            <p>
+	          <label class="text-dark" style="font-size: 18">Price before discount: </label>
+            <input id="tot1" 
+                   type="number" 
+                   placeholder="Total"  step="0.01"
+            />
+             </p>
+             <p>
+             <label  style="font-size: 18">Discount: </label> 
+             <input id="perc1" type="number" placeholder="Discount" step="0.01"/><span>%</span>
+           </p>
+
+             <button class="btn btn-primary" style="margin: 3% "onClick="findPart()" style="font-size: 18">Calculate</button>
+             <p>
+             <label id="error" style="color: red"></label></p>
+             <p> <label style="font-weight: bold;font-size: 18;">Price after discount: </label>
+             <label id="ans1" class="ans"></label>
+           </p>
+            <p>
+              <label style="font-weight: bold;font-size: 18;">Your savings: </label>
+             <label id="saved" class="ans"></label>
+            </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--  Footer  -->
+    <footer class="border-top py-3 px-4">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <p class="m-0">Copyright &copy; 2020 codeezzi</p>
+                <p class="m-0">Page Created by <a href="https://github.com/adata111" target="_blank">Ahana Datta</a></p>
+            </div>
+            <div class="col-md-6 text-md-right">
+                <a href="#" class="text-dark">Terms of Use</a>
+                <span class="text-muted mx-2">|</span>
+                <a href="#" class="text-dark">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+    <!--  Footer End  -->
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript"></script>
+    <title>Service Tax Calculator</title>
+</head>
+
+<body>
+
+    <!--  Navbar  -->
+    <nav class="site-header sticky-top py-1 text-light">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <a class="py-2 text-light" href="index.html">
+                <i class="fa fa-cogs fa-2x" aria-hidden="true"></i>
+            </a>
+
+            <div class="btn-group d-none d-md-block py-2">
+                <button type="button" class="btn btn-link text-light dropdown-toggle text-decoration-none" data-toggle="dropdown">Conversion Tools</button>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Demo</a>
+                </div>
+            </div>
+
+            <div class="btn-group d-none d-md-block py-2">
+                <button type="button" class="btn btn-link text-light dropdown-toggle text-decoration-none" data-toggle="dropdown">Daily Use Tools</button>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Demo</a>
+                </div>
+            </div>
+
+            <div class="btn-group d-none d-md-block py-2">
+                <button type="button" class="btn btn-link text-light dropdown-toggle text-decoration-none" data-toggle="dropdown">Finance Tools</button>
+                <div class="dropdown-menu">
+                    <a href="financeTools/discount calculator/discount.html" class="dropdown-item">Discount Calculator</a>
+                    <a href="#" class="dropdown-item">Demo</a>
+                </div>
+            </div>
+
+            <div class="btn-group d-none d-md-block py-2">
+                <button type="button" class="btn btn-link text-light dropdown-toggle text-decoration-none" data-toggle="dropdown">Mathmetical Tools</button>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Demo</a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <main>
+        <div class="container text-center bg-info">
+            <h2>Service Tax Calculator</h2>
+        </div>
+        <br> <br> <br>
+        <div class="text-center p-5 m-4">
+            <div>
+                <label for="price">Price (before GST): </label>
+                <input style="padding-left: 40px;" id="price" type="number" value="1" />
+            </div>
+            <br>
+            <div>
+                <label for="gst">GST rate (%): </label>
+                <input id="gst" type="number" value="0.6" />
+            </div>
+
+            <div style="padding-top: 5px; padding-left: 60px;">
+                <button style="padding: 5px;" class="bg-info" onclick="inpChange()">Calculate</button>
+            </div>
+            <br>
+            <div>
+                <label for="priceGst">Price (GST inclusive) : </label>
+                <input id="priceGst" type="number" readonly />
+            </div>
+        </div>
+
+    </main>
+
+    <!--  Footer  -->
+    <footer class="border-top py-3 px-4">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <p class="m-0">Copyright &copy; 2020 codeezzi</p>
+                <p class="m-0">Page Created by <a href="https://github.com/rahulvermafreelancer" target="_blank">Rahul Verma</a></p>
+            </div>
+            <div class="col-md-6 text-md-right">
+                <a href="#" class="text-dark">Terms of Use</a>
+                <span class="text-muted mx-2">|</span>
+                <a href="#" class="text-dark">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+    <!--  Footer End  -->
+
+    <script>
+        priceEle = document.getElementById("price");
+        gstEle = document.getElementById("gst");
+        priceGstEle = document.getElementById("priceGst");
+
+        function calculateGst(price, tax) {
+            return (price * tax / 100) + price;
+        }
+
+        function inpChange() {
+            if (!isNaN(priceEle.value) && !isNaN(gstEle.value)) {
+                price = Number(priceEle.value);
+                gst = Number(gstEle.value);
+                priceGstEle.value = calculateGst(price, gst).toFixed(3);
+            }
+        }
+        inpChange();
+    </script>
+</body>
+
+</html>
