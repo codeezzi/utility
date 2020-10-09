@@ -1,0 +1,27 @@
+div{
+  text-align: center;
+}
+
+nav {
+  background-color: black;
+}
+
+img {
+  height: auto;
+  width: 250px;
+}
+
+td {
+  padding-top: 4%;
+}
+
+table {
+  margin: 0 auto;
+}
+
+
+.calculator {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+}
