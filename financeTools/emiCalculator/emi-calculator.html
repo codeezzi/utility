@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#6610f2" />
+    <link rel="icon" type="image/ico" href="/favicon.ico" />
+    <title>EMI Calculator</title>
+
+    <!--  Styles  -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/assets/styles/style.css" />
+  </head>
+  <body>
+    <!--  Navbar  -->
+    <nav class="site-header sticky-top py-1 text-light">
+      <div
+        class="container d-flex flex-column flex-md-row justify-content-between align-items-center"
+      >
+        <a class="py-2 text-light" href="/index.html">
+          <i class="fa fa-cogs fa-2x" aria-hidden="true"></i>
+        </a>
+
+        <div class="btn-group d-none d-md-block py-2">
+          <button
+            type="button"
+            class="btn btn-link text-light dropdown-toggle text-decoration-none"
+            data-toggle="dropdown"
+          >
+            Conversion Tools
+          </button>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Demo</a>
+          </div>
+        </div>
+
+        <div class="btn-group d-none d-md-block py-2">
+          <button
+            type="button"
+            class="btn btn-link text-light dropdown-toggle text-decoration-none"
+            data-toggle="dropdown"
+          >
+            Daily Use Tools
+          </button>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Demo</a>
+          </div>
+        </div>
+
+        <div class="btn-group d-none d-md-block py-2">
+          <button
+            type="button"
+            class="btn btn-link text-light dropdown-toggle text-decoration-none"
+            data-toggle="dropdown"
+          >
+            Finance Tools
+          </button>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Demo</a>
+          </div>
+        </div>
+
+        <div class="btn-group d-none d-md-block py-2">
+          <button
+            type="button"
+            class="btn btn-link text-light dropdown-toggle text-decoration-none"
+            data-toggle="dropdown"
+          >
+            Mathmetical Tools
+          </button>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Demo</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--  Navbar End  -->
+    <!-- Modal Start -->
+    <div class="modal fade" id="message" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="message">Error</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger"  data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Modal End -->
+    <!--  Tools List  -->
+    <section class="container mb-12">
+      <div class="row">
+        <div class="col-md-12 col-lg-8 col-xl-6 mx-auto">
+            <h1>EMI Calculator</h1>
+            <hr class="mb-6">
+            <label for="amount">Loan Amount</label>
+            <div class="input-group mb-6">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">₹</span>
+                </div>
+                <input type="number" name="amount" id="amount" class="form-control" placeholder="Please Enter Amount Here">
+                <div class="input-group-append">
+                    <span class="input-group-text">.00</span>
+                </div>
+            </div>
+            <label for="interest">Rate of Interest</label>
+            <div class="input-group mb-6">
+                <input type="number" name="interest" id="interest" class="form-control" placeholder="Please Enter Yearly Rate of Interest">
+                <div class="input-group-append">
+                    <span class="input-group-text">%</span>
+                </div>
+            </div>
+            <label for="duration">Loan Duration</label>
+            <div class="input-group mb-6">
+                <div class="input-group-prepend">
+                    <input type="number" name="duration" id="duration" class="form-control" placeholder="Please Enter Duration">
+                </div>
+                <select class="custom-select" name="duration-in" id="duration-in">
+                    <option value="month">Months</option>
+                    <option value="year" selected>Years</option>
+                </select>
+            </div>
+            <hr class="mb-6">
+            <div class="input-group mb-6">
+                <button class="btn btn-primary btn-lg btn-block" type="button" id="calculate">Calculate EMI</button>
+            </div>
+        </div>
+      </div>
+      <br>
+      <div class="row d-none result">
+        <div class="col-md-12 col-lg-8 col-xl-6  mx-auto">
+            <div class="card">
+                <h5 class="card-header">EMI Breakup</h5>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+      </div>
+      <br>
+    </section>
+    <!--  Tools List End  -->
+
+    <!--  Footer  -->
+    <footer class="border-top py-3 px-4">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <p class="m-0">Copyright &copy; 2020 codeezzi</p>
+        </div>
+        <div class="col-md-6 text-md-right">
+          <a href="/contributors.html" target="_blank" class="text-dark"
+            >Contributors</a
+          >
+          <span class="text-muted mx-2">|</span>
+
+          <a href="#" class="text-dark">Terms of Use</a>
+          <span class="text-muted mx-2">|</span>
+          <a href="#" class="text-dark">Privacy Policy</a>
+        </div>
+      </div>
+    </footer>
+    <!--  Footer End  -->
+    <!--Scripts-->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        let calculateBtn = document.getElementById('calculate');
+        calculateBtn.addEventListener('click', function(){
+            let p = document.getElementById('amount').value || 0;
+            let r = document.getElementById('interest').value || 0;
+            let n = document.getElementById('duration').value || 0;
+            
+            if(isNaN(p) || p == 0){
+                $('.modal-body').text('Please enter valid amount');
+                $('#message').modal('show');
+                return;
+            }else if(isNaN(r) || r == 0) {
+                $('.modal-body').text('Please enter valid rate of interest');
+                $('#message').modal('show');
+                return;
+            }else if(isNaN(n) || n == 0) {
+                $('.modal-body').text('Please enter valid duration');
+                $('#message').modal('show');
+                return;
+            }
+
+            calculateEMI(p, r, n);
+        });
+
+        function calculateEMI(p, r, n) {
+            let actualn = $('#duration-in').val() === 'year' ? n * 12 : n;
+            let rate = r / 12 / 100;
+            let emi = p * rate * ((Math.pow(1 + rate, actualn) / (Math.pow(1 + rate, actualn) - 1)));
+            let interest = (emi * actualn) - p;
+
+            $('.card-title').text(`For ₹ ${parseInt(p).toFixed(2)} with interest rate ${parseInt(r).toFixed(2)}% and duration ${n} ${$('#duration-in').val()}s`);
+            $('.card-subtitle').text(`EMI Amount will be ₹ ${emi.toFixed(2)} per month`);
+            $('.card-text').text(`Total interest payable is ${interest.toFixed(2)} and total amount payable is ${(emi * n).toFixed(2)}`)
+            $('.result').removeClass('d-none');
+        }
+    </script>
+  </body>
+</html>
