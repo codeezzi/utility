@@ -69,6 +69,7 @@ Utility is meant to be a simple easy to use unit conversion website plus bunch o
 - [surface area]
 - [parameter]
 - [binary]
+- [percentage](mathematicalTools/percentageCalculator/percentageCalculator.html)
 
 ### [Finance Tools](financeTools)
 - [intrest calculator]
