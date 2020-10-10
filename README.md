@@ -81,7 +81,7 @@ Utility is meant to be a simple easy to use unit conversion website plus bunch o
 - [x] [mortage calculator](financeTools/mortgageCalculator)
 - [x] [EMI calculator](financeTools/emiCalculator)
 - [x] [service tax calculator](financeTools/service-txt-calculator)
-- [x] [discount calculator](financeTools/discount calculator)
+- [x] [discount calculator](financeTools/discountcalculator)
 - [ ] [loan calculator]
 - [ ] [fixed deposit calculator]
 
