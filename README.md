@@ -1,6 +1,8 @@
 # utility
 Utility is meant to be a simple easy to use unit conversion website plus bunch of utility tools. This will be a static website made completly from HTML,CSS and Javascript or any other Frontend Framwork.
 
+`Tools marked with ☑ are already completed`
+
 ---
 
 **Note: Please Don't Make Any Changes In `index.html` AND `contributors.html`**
@@ -21,77 +23,77 @@ Utility is meant to be a simple easy to use unit conversion website plus bunch o
 
 ### [Conversion tools](conversionTools)
 - [x] [Temperture](conversionTools/temperture/temperture.html)
-- [Length]
-- [weight]
-- [speed]
-- [currency]
-- [time]
-- [area]
-- [fuel](conversionTools/fuelEfficiency/fuel.html)
-- [pressure]
-- [energy]
-- [current]
-- [force]
-- [sound]
-- [frequency]
-- [image]
-- [radiation]
-- [resistence]
-- [power]
-- [flow]
-- [angle]
-- [magnet]
-- [viscosity]
-- [torque](conversionTools/Torque/torque.html)
-- [density]
-- [conductance]
-- [inductance]
-- [capacitence]
-- [heat density]
-- [surface tension]
-- [resolution]
-- [charge]
+- [x] [Length](conversionTools/length)
+- [ ] [weight]
+- [ ] [speed]
+- [ ] [currency]
+- [ ] [time]
+- [ ] [area]
+- [x] [fuel](conversionTools/fuelEfficiency/fuel.html)
+- [ ] [pressure]
+- [ ] [energy]
+- [ ] [current]
+- [ ] [force]
+- [ ] [sound]
+- [ ] [frequency]
+- [ ] [image]
+- [ ] [radiation]
+- [ ] [resistence]
+- [ ] [power]
+- [ ] [flow]
+- [x] [angle](conversionTools/Angle_Conversion)
+- [ ] [magnet]
+- [ ] [viscosity]
+- [x] [torque](conversionTools/Torque/torque.html)
+- [x] [density](conversionTools/density)
+- [ ] [conductance]
+- [ ] [inductance]
+- [ ] [capacitence]
+- [ ] [heat density]
+- [ ] [surface tension]
+- [ ] [resolution]
+- [ ] [charge]
 
 ### [Mathmetical Tools](mathmeticalTools)
-- [number base]
-- [number series]
-- [roman numericals]
-- [ratio]
-- [propotions]
-- [decimal to fraction]
-- [quadratic equations]
-- [cubic equations]
-- [GCD]
-- [LCM]
-- [expression evaluator]
-- [area]
-- [volume]
-- [surface area]
-- [parameter]
-- [binary]
+- [ ] [number base]
+- [ ] [number series]
+- [ ] [roman numericals]
+- [ ] [ratio]
+- [ ] [propotions]
+- [ ] [decimal to fraction]
+- [ ] [quadratic equations]
+- [ ] [cubic equations]
+- [ ] [GCD]
+- [ ] [LCM]
+- [ ] [expression evaluator]
+- [ ] [area]
+- [ ] [volume]
+- [ ] [surface area]
+- [ ] [parameter]
+- [ ] [binary]
 
 ### [Finance Tools](financeTools)
-- [intrest calculator]
-- [compound interest calculator]
-- [return or investment calculator]
-- [stock return calculator]
-- [retirement calculator](financeTools/retirementcalaculator/index.html)
-- [mortage calculator]
-- [EMI calculator]
-- [service tax calculator]
-- [discount calculator]
-- [loan calculator]
-- [fixed deposit calculator]
+- [ ] [intrest calculator]
+- [x] [compound interest calculator](financeTools/compound-interest-calculator)
+- [ ] [return or investment calculator]
+- [ ] [stock return calculator]
+- [x] [retirement calculator](financeTools/retirementcalaculator/index.html)
+- [x] [mortage calculator](financeTools/mortgageCalculator)
+- [x] [EMI calculator](financeTools/emiCalculator)
+- [x] [service tax calculator](financeTools/service-txt-calculator)
+- [x] [discount calculator](financeTools/discount calculator)
+- [ ] [loan calculator]
+- [ ] [fixed deposit calculator]
 
 ### [Daily Use Tools](dailyUseTools)
-- [compass]
-- [morse convertor]
-- [scientific calculator]
-- [jwelery price]
-- [fuel cost]
-- [time zone]
-- [password generator]
-- [BMI](dailyUseTools/bmicalculator/bmi-calculator.html)
+- [ ] [compass]
+- [ ] [morse convertor]
+- [ ] [scientific calculator]
+- [ ] [jwelery price]
+- [ ] [fuel cost]
+- [ ] [time zone]
+- [ ] [password generator]
+- [x] [BMI](dailyUseTools/bmicalculator/bmi-calculator.html)
 
 *Feel free to suggest if important tools are missing.*
 

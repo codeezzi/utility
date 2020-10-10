@@ -1,7 +1,7 @@
 
 ### TLDR of contributing.md:
 
-- Ensure that no one is working on (or already completed) the tool you want to work on.
+- Ensure that no one is working on (or already completed) the tool you want to work on.`Tools marked with ☑ are already completed`
 - Use descriptive commit messages
 - You can create an issue for the tool you want to claim and work on
 - You can only use javascript.
