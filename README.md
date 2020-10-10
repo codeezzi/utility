@@ -1,5 +1,9 @@
-![utility](assets/img/utility-1.png)
-# utility
+<h1 align="center"> UTILITY </h1>
+
+<p align="center">
+  <img src="assets/img/utility-1.png" />
+</p>
+
 Utility is meant to be a simple easy to use unit conversion website plus bunch of utility tools. This will be a static website made completly from HTML,CSS and Javascript or any other Frontend Framwork.
 
 `Tools marked with ☑ are already completed`
