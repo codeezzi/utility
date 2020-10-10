@@ -91,7 +91,7 @@ Utility is meant to be a simple easy to use unit conversion website plus bunch o
 - [fuel cost]
 - [time zone]
 - [password generator]
-- [BMI]
+- [BMI](dailyUseTools/bmicalculator/bmi-calculator.html)
 
 *Feel free to suggest if important tools are missing.*
 
