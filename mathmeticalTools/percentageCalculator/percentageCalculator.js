@@ -1,3 +1,8 @@
+MathJax.Hub.Config({    
+    extensions: ["tex2jax.js"],    
+    "HTML-CSS": { scale: 100}    
+  });   
+
 function op(){
 var coll = document.getElementById("collapsible");
 var i;
