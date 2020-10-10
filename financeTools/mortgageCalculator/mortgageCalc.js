@@ -38,7 +38,3 @@ document.getElementById("reset").addEventListener("click", function(){
   document.getElementById("amt").value = "";
   document.getElementById('result').textContent="____________";
 })
-
-
-//add error handling for when a field is left blank
-//add field reset button
