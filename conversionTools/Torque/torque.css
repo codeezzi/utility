@@ -1,0 +1,170 @@
+
+
+/*
+*----------------------------------------------------------------
+* SITE HEADER
+*----------------------------------------------------------------
+*/
+.site-header {
+    background-color: rgba(0, 0, 0, 0.85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+  /*
+  *----------------------------------------------------------------
+  * heading
+  *----------------------------------------------------------------
+  */
+  .heading
+  {  
+      /* margin-top: 50px; */
+      text-align: center;
+  }
+  /*
+  *----------------------------------------------------------------
+  * container
+  *----------------------------------------------------------------
+  */
+  .container_wrapper
+  {
+      width: 90%;
+      height: 50vh;
+      display: flex;
+      margin: .5rem auto auto;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: white;
+  }
+  /*
+  *----------------------------------------------------------------
+  * temprature wrapper
+  *----------------------------------------------------------------
+  */
+  .torque__wrapper
+  {
+      width: 50%;
+      margin: 0 auto;
+      display: flex;
+      border-radius: 10px;
+      height: 300px;
+      flex-direction: column;
+      justify-content: center;
+      background-color: #5452ad;
+      /* background-color: var(--indigo); */
+  }
+  /*
+  *----------------------------------------------------------------
+  * temprature container
+  *----------------------------------------------------------------
+  */
+  .torque__container
+  {
+      display: flex;  
+      flex-direction: column;
+      margin: 0 auto;
+  }
+  /*
+  *----------------------------------------------------------------
+  * value ,result, button container
+  *----------------------------------------------------------------
+  */
+  .value__container,
+  .result__container,
+  .button__container
+  {
+      margin: 10px auto;
+  }
+  /*
+  *----------------------------------------------------------------
+  * value ,result dropdown box
+  *----------------------------------------------------------------
+  */
+  #conversion_value,
+  #conversion_result
+  {
+      color: Black;
+      /* #fff */
+      background-color: rgb(250, 212, 0);
+      border-color: #020405;
+      outline: none;
+  
+  }
+  /*
+  *----------------------------------------------------------------
+  * convert button
+  *----------------------------------------------------------------
+  */
+  #convert_button
+  {
+      color: #fff;
+      background-color: #ff0000b7;
+      border-color: #07090a;
+      outline: none;
+  }
+
+  /*
+*----------------------------------------------------------------
+* HERO SECTION
+*----------------------------------------------------------------
+*/
+.hero-section {
+    background-color: var(--indigo);
+  }
+    
+  .hero-section__graphic,
+  .hero-section__graphic:before,
+  .hero-section__graphic:after {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 300px;
+    height: 200px;
+    border-radius: 40% 30% 30% 40% / 60% 40% 60% 40%;
+  }
+  
+  .hero-section__graphic:before,
+  .hero-section__graphic:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation: float 10s infinite linear;
+  }
+  .hero-section__graphic:after {
+    animation-direction: reverse;
+    animation-delay: 500ms;
+  }
+  
+  .hero-section__icon {
+    fill: var(--light);
+    width: 100%;
+    height: auto;
+  } 
+
+  @keyframes float {
+    0% {
+      transform: translate(0%, 0%) rotate(0);
+    }
+  
+    33% {
+      transform: translate(2%, 2%) rotate(120deg);
+    }
+  
+    66% {
+      transform: translate(2%, -2%) rotate(240deg);
+    }
+  
+    to {
+      transform: translate(0%, 0%) rotate(360deg);
+    }
+  }
+
+
+  /* Testing */
+  img {
+    width: 135px;
+    height: 135px;
+     position: relative;
+     left: 83px;
+     top: 30px;
+  }
