@@ -1,5 +1,14 @@
-# utility
+<h1 align="center"> UTILITY </h1>
+
+<p align="center">
+  <img src="assets/img/utility-1.png" />
+</p>
+
+[![Created Badge](https://badges.pufler.dev/created/codeezzi/utility)](https://badges.pufler.dev) [![Updated Badge](https://badges.pufler.dev/updated/codeezzi/utility)](https://badges.pufler.dev) [![GitHub contributors](https://img.shields.io/github/contributors/codeezzi/utility.svg)](https://GitHub.com/codeezzi/utility/contributors/) [![GitHub pull-requests](https://img.shields.io/github/issues-pr/codeezzi/utility.svg)](https://GitHub.com/codeezzi/utility/pull/) [![GitHub pull-requests closed](https://img.shields.io/github/issues-pr-closed/codeezzi/utility.svg)](https://github.com/codeezzi/utility/pulls?q=is%3Apr+is%3Aclosed) [![GitHub issues](https://img.shields.io/github/issues/codeezzi/utility.svg)](https://GitHub.com/codeezzi/utility/issues/) [![GitHub issues-closed](https://img.shields.io/github/issues-closed/codeezzi/utility.svg)](https://GitHub.com/codeezzi/utility/issues?q=is%3Aissue+is%3Aclosed) [![Visits Badge](https://badges.pufler.dev/visits/codeezzi/utility)](https://badges.pufler.dev) [![Commits Badge](https://badges.pufler.dev/commits/monthly/shubham2704)](https://badges.pufler.dev)
+
 Utility is meant to be a simple easy to use unit conversion website plus bunch of utility tools. This will be a static website made completly from HTML,CSS and Javascript or any other Frontend Framwork.
+
+`Tools marked with ☑ are already completed`
 
 ---
 
@@ -20,78 +29,78 @@ Utility is meant to be a simple easy to use unit conversion website plus bunch o
 
 
 ### [Conversion tools](conversionTools)
-- [Temperture](conversionTools/temperture/temperture.html)
-- [Length]
-- [weight]
-- [speed]
-- [currency]
-- [time]
-- [area]
-- [fuel](conversionTools/fuelEfficiency/fuel.html)
-- [pressure]
-- [energy]
-- [current]
-- [force]
-- [sound]
-- [frequency]
-- [image]
-- [radiation]
-- [resistence]
-- [power]
-- [flow]
-- [angle]
-- [magnet]
-- [viscosity]
-- [torque]
-- [density]
-- [conductance]
-- [inductance]
-- [capacitence]
-- [heat density]
-- [surface tension]
-- [resolution]
-- [charge]
+- [x] [Temperture](conversionTools/temperture/temperture.html)
+- [x] [Length](conversionTools/length)
+- [ ] [weight]
+- [ ] [speed]
+- [ ] [currency]
+- [ ] [time]
+- [ ] [area]
+- [x] [fuel](conversionTools/fuelEfficiency/fuel.html)
+- [ ] [pressure]
+- [ ] [energy]
+- [ ] [current]
+- [ ] [force]
+- [ ] [sound]
+- [ ] [frequency]
+- [ ] [image]
+- [ ] [radiation]
+- [ ] [resistence]
+- [ ] [power]
+- [ ] [flow]
+- [x] [angle](conversionTools/Angle_Conversion)
+- [ ] [magnet]
+- [ ] [viscosity]
+- [x] [torque](conversionTools/Torque/torque.html)
+- [x] [density](conversionTools/density)
+- [ ] [conductance]
+- [ ] [inductance]
+- [ ] [capacitence]
+- [ ] [heat density]
+- [ ] [surface tension]
+- [ ] [resolution]
+- [ ] [charge]
 
 ### [Mathmetical Tools](mathmeticalTools)
-- [number base]
-- [number series]
-- [roman numericals]
-- [ratio]
-- [propotions]
-- [decimal to fraction]
-- [quadratic equations]
-- [cubic equations]
-- [GCD]
-- [LCM]
-- [expression evaluator]
-- [area]
-- [volume]
-- [surface area]
-- [parameter]
-- [binary]
+- [ ] [number base]
+- [ ] [number series]
+- [ ] [roman numericals]
+- [ ] [ratio]
+- [ ] [propotions]
+- [ ] [decimal to fraction]
+- [ ] [quadratic equations]
+- [ ] [cubic equations]
+- [ ] [GCD]
+- [ ] [LCM]
+- [ ] [expression evaluator]
+- [ ] [area]
+- [ ] [volume]
+- [ ] [surface area]
+- [ ] [parameter]
+- [ ] [binary]
 
 ### [Finance Tools](financeTools)
-- [intrest calculator]
-- [compound interest calculator]
-- [return or investment calculator]
-- [stock return calculator]
-- [retirement calculator](financeTools/retirementcalaculator/index.html)
-- [mortage calculator]
-- [EMI calculator]
-- [service tax calculator]
-- [discount calculator]
-- [loan calculator]
-- [fixed deposit calculator]
+- [ ] [intrest calculator]
+- [x] [compound interest calculator](financeTools/compound-interest-calculator)
+- [ ] [return or investment calculator]
+- [ ] [stock return calculator]
+- [x] [retirement calculator](financeTools/retirementcalaculator/index.html)
+- [x] [mortage calculator](financeTools/mortgageCalculator)
+- [x] [EMI calculator](financeTools/emiCalculator)
+- [x] [service tax calculator](financeTools/service-txt-calculator)
+- [x] [discount calculator](financeTools/discountcalculator)
+- [ ] [loan calculator]
+- [ ] [fixed deposit calculator]
 
 ### [Daily Use Tools](dailyUseTools)
-- [compass]
-- [morse convertor]
-- [scientific calculator]
-- [jwelery price]
-- [fuel cost]
-- [time zone]
-- [password generator]
-- [BMI]
+- [ ] [compass]
+- [ ] [morse convertor]
+- [ ] [scientific calculator]
+- [ ] [jwelery price]
+- [ ] [fuel cost]
+- [ ] [time zone]
+- [ ] [password generator]
+- [x] [BMI](dailyUseTools/bmicalculator/bmi-calculator.html)
 
 *Feel free to suggest if important tools are missing.*
 

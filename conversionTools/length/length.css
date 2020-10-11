@@ -1,0 +1,155 @@
+body {
+  background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+}
+
+.container1 {
+  height: 35vh;
+  width: 100%;
+}
+
+.container2 {
+  height: 47vh;
+}
+
+h1 {
+  color: white;
+  font-size: 65px;
+  text-align: center;
+  font-family: 'Lobster';
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+.container1 input {
+  outline: none;
+  margin: 0;
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  width: 15%;
+  font-size: 50px;
+  padding-top: 15px;
+  border-bottom: 2px solid white;
+  color: white;
+  position: relative;
+  top: 50%;
+  left: 34%;
+  background: transparent;
+}
+
+.container2 input {
+  outline: none;
+  margin: 0;
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  width: 15%;
+  font-size: 50px;
+  padding-top: 15px;
+  border-bottom: 2px solid white;
+  color: white;
+  position: relative;
+  top: 50%;
+  left: 34%;
+  background: transparent;
+}
+
+.container1 select {
+  outline: none;
+  margin: 0;
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  width: 13%;
+  font-size: 20px;
+  padding: 11px;
+  background-color: blue;
+  color: white;
+  border: 2px solid white;
+  border-radius: 15px;
+  position: relative;
+  top: 50%;
+  left: 34%;
+  background: transparent;
+  margin-left: 15px;
+}
+
+.container2 select {
+  outline: none;
+  margin: 0;
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  width: 13%;
+  font-size: 20px;
+  padding: 11px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 15px;
+  position: relative;
+  top: 50%;
+  left: 34%;
+  background: transparent;
+  margin-left: 15px;
+}
+
+@media (max-width: 576px) {
+  .container1 select {
+    top: 80%;
+    left: -15%;
+    width: 50%;
+  }
+  .container2 select {
+    top: 80%;
+    left: -15%;
+    width: 50%;
+  }
+  .container2 {
+    padding-bottom: 100px;
+  }
+  .container1 input {
+    width: 40%;
+  }
+  .container2 input {
+    width: 40%;
+    padding-bottom: 5%;
+  }
+}
+
+@media (max-width: 992px) {
+  .container1 select {
+    top: 80%;
+    left: -15%;
+    width: 50%;
+  }
+  .container2 select {
+    top: 80%;
+    left: -15%;
+    width: 50%;
+  }
+  .container2 {
+    padding-bottom: 100px;
+  }
+  .container1 input {
+    width: 40%;
+  }
+  .container2 input {
+    width: 40%;
+    padding-bottom: 3.5%;
+  }
+}
+
+.container1 option {
+  background-color: #090979;
+}
+
+.container2 option {
+  background-color: #090979;
+}
