@@ -56,7 +56,7 @@ document.getElementById("reset").addEventListener("click", function(){
 
   document.getElementById('result').textContent="$" + payment.toFixed(2);
 
-})
+
 
 
 //add error handling for when a field is left blank
