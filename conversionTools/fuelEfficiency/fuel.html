@@ -1,0 +1,103 @@
+<html> 
+    <head> 
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="theme-color" content="#6610f2">
+      <link rel="icon" type="image/ico" href="../../favicon.ico"/>
+        <title>Fuel Efficiency Calculator</title> 
+        <link rel="stylesheet" href="fuel.css">
+        <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!--Scripts-->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="fuel.js"></script>
+    
+    </head> 
+    <body style="background-color: rgba(173, 216, 230, 0.3);
+  font-family: 'Multi', sans-serif;"> 
+      <nav class="site-header sticky-top py-1 text-light">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <a class="py-2 text-light" href="../../index.html">
+                <i class="fa fa-cogs fa-2x" aria-hidden="true"></i>
+            </a>
+
+            <div class="btn-group d-none d-md-block py-2">
+                <button type="button" class="btn btn-link text-light dropdown-toggle text-decoration-none" data-toggle="dropdown">Conversion Tools</button>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Demo</a>
+                    <a href="#" class="dropdown-item">Fuel Efficiency Calculator</a>
+                </div>
+            </div>
+
+            <div class="btn-group d-none d-md-block py-2">
+                <button type="button" class="btn btn-link text-light dropdown-toggle text-decoration-none" data-toggle="dropdown">Daily Use Tools</button>
+                <div class="dropdown-menu">
+                  <a href="#" class="dropdown-item">Demo</a>
+                </div>
+            </div>
+
+            <div class="btn-group d-none d-md-block py-2">
+              <button type="button" class="btn btn-link text-light dropdown-toggle text-decoration-none" data-toggle="dropdown">Finance Tools</button>
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Demo</a>
+              </div>
+          </div>
+
+            <div class="btn-group d-none d-md-block py-2">
+                <button type="button" class="btn btn-link text-light dropdown-toggle text-decoration-none" data-toggle="dropdown">Mathmetical Tools</button>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Demo</a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <div id="content">
+      <h1 class="title">Fuel Efficiency Calculator</h1>
+      <div>
+        <label>
+          Miles Traveled:
+        </label>
+        <input id="miles" type="number" placeholder="Miles"/>
+      </div>
+      <div>
+        <label>
+          Gallons Consumed:
+        </label>
+        <input id="gallons" type="number" placeholder="Gallons"/>
+      </div>
+      <div>
+        <button class="btn-btn" onclick="calculateMPG()">Calculate MPG</button>
+      </div>
+      <div>
+        <label class="total">
+          Total MPGs:
+        </label>
+        <label id="mpgs">
+        </label>
+      </div>
+    </div>
+
+  <!--  Footer  -->
+    <footer class="border-top py-3 px-4">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <p class="m-0">Copyright &copy; 2020 codeezzi</p>
+                <p class="m-0">Page Created by <a href="https://github.com/bbodenheimer" target="_blank">Buckland Bodenheimer</a></p>
+            </div>
+            <div class="col-md-6 text-md-right">
+                <a href="#" class="text-dark">Terms of Use</a>
+                <span class="text-muted mx-2">|</span>
+                <a href="#" class="text-dark">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+    <!--  Footer End  -->
+</body>
+
+</html>

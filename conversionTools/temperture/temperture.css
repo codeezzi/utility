@@ -1,0 +1,101 @@
+
+
+/*
+*----------------------------------------------------------------
+* SITE HEADER
+*----------------------------------------------------------------
+*/
+.site-header {
+  background-color: rgba(0, 0, 0, 0.85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+/*
+*----------------------------------------------------------------
+* heading
+*----------------------------------------------------------------
+*/
+.heading
+{
+    text-align: center;
+}
+/*
+*----------------------------------------------------------------
+* container
+*----------------------------------------------------------------
+*/
+.container_wrapper
+{
+	width: 90%;
+	height: 50vh;
+    display: flex;
+    margin: .5rem auto auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+/*
+*----------------------------------------------------------------
+* temprature wrapper
+*----------------------------------------------------------------
+*/
+.temp__wrapper
+{
+	width: 50%;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 10px;
+    height: 300px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--indigo);
+}
+/*
+*----------------------------------------------------------------
+* temprature container
+*----------------------------------------------------------------
+*/
+.temp__container
+{
+	display: flex;  
+    flex-direction: column;
+	margin: 0 auto;
+}
+/*
+*----------------------------------------------------------------
+* value ,result, button container
+*----------------------------------------------------------------
+*/
+.value__container,
+.result__container,
+.button__container
+{
+    margin: 10px auto;
+}
+/*
+*----------------------------------------------------------------
+* value ,result dropdown box
+*----------------------------------------------------------------
+*/
+#conversion_value,
+#conversion_result
+{
+	color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    outline: none;
+
+}
+/*
+*----------------------------------------------------------------
+* convert button
+*----------------------------------------------------------------
+*/
+#convert_button
+{
+	color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    outline: none;
+}

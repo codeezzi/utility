@@ -1,0 +1,69 @@
+body {
+  background-color: rgba(173, 216, 230, 0.3);
+  font-family: "Multi", sans-serif;
+}
+.answer {
+  border: 4px;
+  border-color: black;
+  color: green;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.site-header {
+  background-color: rgba(0, 0, 0, 0.85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+
+.hero-section {
+  background-color: var(--indigo);
+}
+
+.hero-section__graphic,
+.hero-section__graphic:before,
+.hero-section__graphic:after {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 10vh;
+  height: 10vh;
+  border-radius: 40% 30% 30% 40% / 60% 40% 60% 40%;
+}
+
+.hero-section__graphic:before,
+.hero-section__graphic:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  animation: float 10s infinite linear;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(0%, 0%) rotate(0);
+  }
+
+  33% {
+    transform: translate(2%, 2%) rotate(120deg);
+  }
+
+  66% {
+    transform: translate(2%, -2%) rotate(240deg);
+  }
+
+  to {
+    transform: translate(0%, 0%) rotate(360deg);
+  }
+}
+
+.hero-section__graphic:after {
+  animation-direction: reverse;
+  animation-delay: 500ms;
+}
+
+.hero-section__icon {
+  fill: var(--light);
+  width: 100%;
+  height: auto;
+}
