@@ -100,7 +100,7 @@ Utility is meant to be a simple easy to use unit conversion website plus bunch o
 - [ ] [jwelery price]
 - [ ] [fuel cost]
 - [ ] [time zone]
-- [ ] [password generator]
+- [x] [password generator](dailyUseTools/passwordGenerator/passwordGenerator.html)
 - [x] [BMI](dailyUseTools/bmicalculator/bmi-calculator.html)
 
 *Feel free to suggest if important tools are missing.*
