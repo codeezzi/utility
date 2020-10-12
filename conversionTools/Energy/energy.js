@@ -76,15 +76,37 @@ formula['ton'] = 'ton (explosive)';
 formula['kton'] = 'kton (explosive)';
 formula['Mton'] = 'Mton (explosive)';
 
-var factor = 0;
+const findFloatingCorrection = (x) => {
+    let correction = 1;
+    let xSplit;
+    if (x.toString().includes('e')) {
+        xSplit = x.toString().split('e');
+        correction =  Math.pow(10, Math.abs(xSplit[1]));
+    }
+    if ((x*correction).toString().includes('.')) {
+        let parts = x.toString().split('.');
+        correction = correction * Math.pow(10, parts[1].length);
+    }
+    return correction;
+}
+
+
+let factor = 0;
 
 function i1(){
-	factor = unitWeights[document.getElementById('s1').value] / unitWeights[document.getElementById('s2').value];
+    const unit1 = Number(unitWeights[document.getElementById('s1').value].toString());
+    const unit2 = unitWeights[document.getElementById('s2').value];
+    const correctionFactor = Math.max(findFloatingCorrection(unit1),findFloatingCorrection(1 / unit2));
+	factor = unit1*correctionFactor / (unit2 *correctionFactor);
 	document.getElementById('inp2').value = document.getElementById('inp1').value * factor;
 	document.getElementById('formula').innerHTML = '1 '+formula[document.getElementById('s1').value]+' = '+factor+' '+formula[document.getElementById('s2').value];
 }
+
 function i2(){
-	factor = unitWeights[document.getElementById('s2').value] / unitWeights[document.getElementById('s1').value];
+	const unit1 = Number(unitWeights[document.getElementById('s1').value].toString());
+    const unit2 = unitWeights[document.getElementById('s2').value];
+    const correctionFactor = Math.max(findFloatingCorrection(unit2),findFloatingCorrection(1 / unit1));
+	factor = unit2*correctionFactor / (unit1 *correctionFactor);
 	document.getElementById('inp1').value = document.getElementById('inp2').value * factor;
 	document.getElementById('formula').innerHTML = '1 '+formula[document.getElementById('s2').value]+' = '+factor+' '+formula[document.getElementById('s1').value];
 }
