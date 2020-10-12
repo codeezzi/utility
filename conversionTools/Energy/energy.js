@@ -30,6 +30,12 @@ unitWeights['lbf-ft'] = 1.3558179483;
 unitWeights['lbf-in'] = 0.112984829;
 unitWeights['ozf-in'] = 0.0070615518;
 unitWeights['kp-m'] = 9.8066499997;
+unitWeights['btu-it'] = 1055.0558526;
+unitWeights['btu-th'] = 1054.35;
+unitWeights['ton'] = 4184000000;
+unitWeights['kton'] = 4184000000000;
+unitWeights['Mton'] = 4184000000000000;
+
 
 
 var formula={};
@@ -64,8 +70,11 @@ formula['lbf-ft'] = 'lbf.ft';
 formula['lbf-in'] = 'lbf.in';
 formula['ozf-in'] = 'ozf.in';
 formula['kp-m'] = 'kp.m';
-
-
+formula['btu-it'] = 'Btu (IT)';
+formula['btu-th'] = 'Btu (th)';
+formula['ton'] = 'ton (explosive)';
+formula['kton'] = 'kton (explosive)';
+formula['Mton'] = 'Mton (explosive)';
 
 var factor = 0;
 
