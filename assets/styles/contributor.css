@@ -1,3 +1,22 @@
+
+:root {
+  --theme: #6610f2;
+  --purple: blueviolet;
+}
+body {
+  background-image: linear-gradient(var(--theme), var(--purple));
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  color: #fff;
+}
+.header h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 3.3em;
+}
+.row {
+  background-color: #000;
+
 :root{
     --theme:#6610f2;
     --purple:blueviolet
@@ -15,6 +34,7 @@ font-size:3.3em;
 }
 .row {
 background-color: #000;
+
   width: 80%;
   margin: 4% auto;
   display: flex;
@@ -35,11 +55,19 @@ background-color: #000;
 .col p {
   margin: 20px;
 }
+
+.social-link a {
+  text-decoration: none;
+  width: 35px;
+  height: 35px;
+  color: #fff;
+
 .social-link a{
     text-decoration: none;
     width: 35px;
     height: 35px;
     color:#fff;
+
 }
 .social-link .fa {
   width: 35px;
@@ -83,8 +111,13 @@ background-color: #000;
     flex-basis: 50%;
     font-size: 14px;
   }
+
+  .header h2 {
+    font-size: 30px;
+
   .header h2{
       font-size: 30px;
+
   }
 
   .social-link .fa {
@@ -116,8 +149,190 @@ background-color: #000;
   .row .col:nth-child(8) {
     order: 8;
   }
+
+
+  .row .col:nth-child(9) {
+    order: 9;
+  }
+  .row .col:nth-child(10) {
+    order: 10;
+  }
+  .row .col:nth-child(11) {
+    order: 13;
+  }
+  .row .col:nth-child(12) {
+    order: 14;
+  }
+  .row .col:nth-child(13) {
+    order: 11;
+  }
+  .row .col:nth-child(14) {
+    order: 12;
+  }
+  .row .col:nth-child(15) {
+    order: 15;
+  }
+  .row .col:nth-child(16) {
+    order: 16;
+  }
+
+  .row .col:nth-child(17) {
+    order: 17;
+  }
+  .row .col:nth-child(18) {
+    order: 18;
+  }
+  .row .col:nth-child(19) {
+    order: 21;
+  }
+  .row .col:nth-child(20) {
+    order: 22;
+  }
+  .row .col:nth-child(21) {
+    order: 19;
+  }
+  .row .col:nth-child(22) {
+    order: 20;
+  }
+  .row .col:nth-child(23) {
+    order: 23;
+  }
+  .row .col:nth-child(24) {
+    order: 24;
+  }
+
+  .row .col:nth-child(25) {
+    order: 25;
+  }
+  .row .col:nth-child(26) {
+    order: 26;
+  }
+  .row .col:nth-child(27) {
+    order: 29;
+  }
+  .row .col:nth-child(28) {
+    order: 30;
+  }
+  .row .col:nth-child(29) {
+    order: 27;
+  }
+  .row .col:nth-child(30) {
+    order: 28;
+  }
+  .row .col:nth-child(31) {
+    order: 31;
+  }
+  .row .col:nth-child(32) {
+    order: 32;
+  }
+
+  .row .col:nth-child(33) {
+    order: 33;
+  }
+  .row .col:nth-child(34) {
+    order: 34;
+  }
+  .row .col:nth-child(35) {
+    order: 37;
+  }
+  .row .col:nth-child(36) {
+    order: 38;
+  }
+  .row .col:nth-child(37) {
+    order: 35;
+  }
+  .row .col:nth-child(38) {
+    order: 36;
+  }
+  .row .col:nth-child(39) {
+    order: 39;
+  }
+  .row .col:nth-child(40) {
+    order: 40;
+  }
+  .row .col:nth-child(41) {
+    order: 41;
+  }
+  .row .col:nth-child(42) {
+    order: 42;
+  }
+  .row .col:nth-child(43) {
+    order: 45;
+  }
+  .row .col:nth-child(44) {
+    order: 46;
+  }
+  .row .col:nth-child(45) {
+    order: 43;
+  }
+  .row .col:nth-child(46) {
+    order: 44;
+  }
+  .row .col:nth-child(47) {
+    order: 47;
+  }
+  .row .col:nth-child(48) {
+    order: 48;
+  }
+
+  .row .col:nth-child(49) {
+    order: 49;
+  }
+  .row .col:nth-child(50) {
+    order: 50;
+  }
+  .row .col:nth-child(51) {
+    order: 53;
+  }
+  .row .col:nth-child(52) {
+    order: 54;
+  }
+  .row .col:nth-child(53) {
+    order: 51;
+  }
+  .row .col:nth-child(54) {
+    order: 52;
+  }
+  .row .col:nth-child(55) {
+    order: 55;
+  }
+  .row .col:nth-child(56) {
+    order: 56;
+  }
+
+  .row .col:nth-child(57) {
+    order: 57;
+  }
+  .row .col:nth-child(58) {
+    order: 58;
+  }
+  .row .col:nth-child(59) {
+    order: 61;
+  }
+  .row .col:nth-child(60) {
+    order: 62;
+  }
+  .row .col:nth-child(61) {
+    order: 59;
+  }
+  .row .col:nth-child(62) {
+    order: 60;
+  }
+  .row .col:nth-child(63) {
+    order: 63;
+  }
+  .row .col:nth-child(64) {
+    order: 64;
+  }
+}
+footer .col-md-6 {
+  text-align: center;
+  border-top: 1px solid rgb(180, 175, 175);
+}
+
 }
 footer .col-md-6{
 text-align: center;
 border-top:1px solid rgb(180, 175, 175);
 }
+
