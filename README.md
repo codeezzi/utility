@@ -37,7 +37,7 @@ Utility is meant to be a simple easy to use unit conversion website plus bunch o
 - [ ] [time]
 - [ ] [area]
 - [x] [fuel](conversionTools/fuelEfficiency/fuel.html)
-- [ ] [pressure]
+- [x] [pressure](conversionTools/pressure)
 - [ ] [energy]
 - [ ] [current]
 - [ ] [force]
