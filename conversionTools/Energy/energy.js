@@ -93,7 +93,7 @@ const findFloatingCorrection = (x) => {
 
 let factor = 0;
 
-function i1(){
+function calculateUnit1(){
     const unit1 = Number(unitWeights[document.getElementById('s1').value].toString());
     const unit2 = unitWeights[document.getElementById('s2').value];
     const correctionFactor = Math.max(findFloatingCorrection(unit1),findFloatingCorrection(1 / unit2));
@@ -102,7 +102,7 @@ function i1(){
 	document.getElementById('formula').innerHTML = '1 '+formula[document.getElementById('s1').value]+' = '+factor+' '+formula[document.getElementById('s2').value];
 }
 
-function i2(){
+function calculateUnit2(){
 	const unit1 = Number(unitWeights[document.getElementById('s1').value].toString());
     const unit2 = unitWeights[document.getElementById('s2').value];
     const correctionFactor = Math.max(findFloatingCorrection(unit2),findFloatingCorrection(1 / unit1));
@@ -110,7 +110,7 @@ function i2(){
 	document.getElementById('inp1').value = document.getElementById('inp2').value * factor;
 	document.getElementById('formula').innerHTML = '1 '+formula[document.getElementById('s2').value]+' = '+factor+' '+formula[document.getElementById('s1').value];
 }
-function i1s(){
+function recalculateUnits(){
 	document.getElementById('inp1').value = 1;
-	i1();
+	calculateUnit1();
 }
