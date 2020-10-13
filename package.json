@@ -1,0 +1,28 @@
+{
+  "name": "utility",
+  "version": "1.0.0",
+  "description": "Utility is meant to be a simple easy to use unit conversion website plus bunch of utility tools. This will be a static website made completly from HTML,CSS and Javascript or any other Frontend Framwork.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeezzi/utility.git"
+  },
+  "author": "Shubham Goswami",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeezzi/utility/issues"
+  },
+  "homepage": "https://github.com/codeezzi/utility#readme",
+  "devDependencies": {
+    "git-scripts": "^0.4.3",
+    "surge": "^0.21.6"
+  },
+  "git": {
+    "scripts": {
+      "pre-push": "surge --project ./ --domain codeezzi-utility.surge.sh"
+    }
+  }
+}
