@@ -1,4 +1,4 @@
-<h1 align="center"> UTILITY </h1>
+<h1 align="center"> <a href="codeezzi-utility.surge.sh"> UTILITY </a></h1>
 
 <p align="center">
   <img src="assets/img/utility-1.png" />
@@ -6,8 +6,12 @@
 
 [![Created Badge](https://badges.pufler.dev/created/codeezzi/utility)](https://badges.pufler.dev) [![Updated Badge](https://badges.pufler.dev/updated/codeezzi/utility)](https://badges.pufler.dev) [![GitHub contributors](https://img.shields.io/github/contributors/codeezzi/utility.svg)](https://GitHub.com/codeezzi/utility/contributors/) [![GitHub pull-requests](https://img.shields.io/github/issues-pr/codeezzi/utility.svg)](https://GitHub.com/codeezzi/utility/pull/) [![GitHub pull-requests closed](https://img.shields.io/github/issues-pr-closed/codeezzi/utility.svg)](https://github.com/codeezzi/utility/pulls?q=is%3Apr+is%3Aclosed) [![GitHub issues](https://img.shields.io/github/issues/codeezzi/utility.svg)](https://GitHub.com/codeezzi/utility/issues/) [![GitHub issues-closed](https://img.shields.io/github/issues-closed/codeezzi/utility.svg)](https://GitHub.com/codeezzi/utility/issues?q=is%3Aissue+is%3Aclosed) [![Visits Badge](https://badges.pufler.dev/visits/codeezzi/utility)](https://badges.pufler.dev) [![Commits Badge](https://badges.pufler.dev/commits/monthly/shubham2704)](https://badges.pufler.dev)
 
-Utility is meant to be a simple easy to use unit conversion website plus bunch of utility tools. This will be a static website made completly from HTML,CSS and Javascript or any other Frontend Framwork.
+Utility is meant to be a simple easy to use unit conversion website plus bunch of utility tools. This will be a static website made completly from HTML,CSS and Javascript or any other Frontend Framwork. 
 
+Visit the Website - http://codeezzi-utility.surge.sh/  or [click here](http://codeezzi-utility.surge.sh/).
+
+Our Contributors - [contributors](http://codeezzi-utility.surge.sh/contributors.html)
+ 
 `Tools marked with ☑ are already completed`
 
 ---
