@@ -61,10 +61,10 @@ Utility is meant to be a simple easy to use unit conversion website plus bunch o
 - [ ] [resolution]
 - [ ] [charge]
 
-### [Mathmetical Tools](mathmeticalTools)
+### [Mathematical Tools](mathematicalTools)
 - [ ] [number base]
 - [ ] [number series]
-- [ ] [roman numericals]
+- [x] [roman numericals](mathematicalTools/romanNumerals/romanNumerals.html)
 - [ ] [ratio]
 - [ ] [propotions]
 - [ ] [decimal to fraction]
