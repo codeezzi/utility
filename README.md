@@ -23,7 +23,7 @@ Utility is meant to be a simple easy to use unit conversion website plus bunch o
 - [Temperture]
 - [Length]
 - [weight]
-- [speed]
+- [speed](conversionTools/speed/speed.html)
 - [currency]
 - [time]
 - [area]
