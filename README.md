@@ -88,7 +88,7 @@ Our Contributors - [contributors](http://codeezzi-utility.surge.sh/contributors.
 - [ ] [intrest calculator]
 - [x] [compound interest calculator](financeTools/compound-interest-calculator)
 - [ ] [return or investment calculator]
-- [ ] [stock return calculator]
+- [x] [stock return calculator](financeTools/stock-return-calculator)
 - [x] [retirement calculator](financeTools/retirementcalaculator/index.html)
 - [x] [mortage calculator](financeTools/mortgageCalculator)
 - [x] [EMI calculator](financeTools/emiCalculator)
