@@ -69,7 +69,7 @@ Our Contributors - [contributors](http://codeezzi-utility.surge.sh/contributors.
 - [ ] [number base]
 - [ ] [number series]
 - [ ] [roman numericals]
-- [x] [ratio](mathematicalTools/ratio/ratio.html)
+- [x] [ratio](mathematicalTools/ratioCalculator/ratio.html)
 - [ ] [propotions]
 - [ ] [decimal to fraction]
 - [ ] [quadratic equations]
