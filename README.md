@@ -67,7 +67,7 @@ Utility is meant to be a simple easy to use unit conversion website plus bunch o
 - [ ] [roman numericals]
 - [ ] [ratio]
 - [ ] [propotions]
-- [ ] [decimal to fraction]
+- [x] [decimal to fraction]
 - [ ] [quadratic equations]
 - [ ] [cubic equations]
 - [ ] [GCD]
