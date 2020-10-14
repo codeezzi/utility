@@ -20,37 +20,37 @@ Utility is meant to be a simple easy to use unit conversion website plus bunch o
 
 
 ### [Conversion tools](conversionTools)
-- [Temperture]
-- [Length]
-- [weight]
-- [speed](conversionTools/speed/speed.html)
-- [currency]
-- [time]
-- [area]
-- [fuel]
-- [pressure]
-- [energy]
-- [current]
-- [force]
-- [sound]
-- [frequency]
-- [image]
-- [radiation]
-- [resistence]
-- [power]
-- [flow]
-- [angle]
-- [magnet]
-- [viscosity]
-- [torque]
-- [density]
-- [conductance]
-- [inductance]
-- [capacitence]
-- [heat density]
-- [surface tension]
-- [resolution]
-- [charge]
+- [x] [Temperture](conversionTools/temperture/temperture.html)
+- [x] [Length](conversionTools/length)
+- [ ] [weight]
+- [x] [speed](conversionTools/speed/speed.html)
+- [ ] [currency]
+- [ ] [time]
+- [ ] [area]
+- [x] [fuel](conversionTools/fuelEfficiency/fuel.html)
+- [x] [pressure](conversionTools/pressure)
+- [x] [energy](conversionTools/Energy/energy.html)
+- [ ] [current]
+- [ ] [force]
+- [ ] [sound]
+- [ ] [frequency]
+- [x] [image](conversionTools/image)
+- [ ] [radiation]
+- [ ] [resistence]
+- [ ] [power]
+- [ ] [flow]
+- [x] [angle](conversionTools/Angle_Conversion)
+- [ ] [magnet]
+- [ ] [viscosity]
+- [x] [torque](conversionTools/Torque/torque.html)
+- [x] [density](conversionTools/density)
+- [ ] [conductance]
+- [ ] [inductance]
+- [ ] [capacitence]
+- [ ] [heat density]
+- [ ] [surface tension]
+- [ ] [resolution]
+- [ ] [charge]
 
 ### [Mathmetical Tools](mathmeticalTools)
 - [number base]
