@@ -18,6 +18,13 @@
   backdrop-filter: saturate(180%) blur(20px);
 }
 
+#slider-contributors{
+  background-color: #FFCC00 !important;
+}
+
+#slider-gradients{
+  background-color: #CC0000 !important;
+}
 /*
 *----------------------------------------------------------------
 * HERO SECTION
