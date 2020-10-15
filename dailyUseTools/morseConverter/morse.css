@@ -48,6 +48,11 @@ p.morse {
   font-size: 18px;
 }
 
+small {
+  color: #AEAEAE;
+  font-size: 13px;
+}
+
 input {
   display: block;
   margin: 0 0 1em 0;

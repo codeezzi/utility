@@ -63,7 +63,13 @@ var converter = {
       console.log(value);
       var output = '';
       for (var i = 0; i < value.length; i++) {
-        output += converter[value.charAt(i).toLowerCase()];
+        if(converter[value.charAt(i)]==' ')
+          output += '\\';
+        else{
+          output += converter[value.charAt(i).toLowerCase()];
+        
+          output += ' ';
+        }
       }
         document.getElementById("morse").innerHTML = output;
       }
@@ -95,9 +101,11 @@ var converter = {
                   gainNode.gain.setValueAtTime(0, t);
                   t += dot;
                   break;
-              case " ":
+              case "\\":
                   t += 7 * dot;
                   break;
+              case " ":
+                  t += 3 * dot;
           }
       });
 
