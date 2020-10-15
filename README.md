@@ -11,6 +11,8 @@ Utility is meant to be a simple easy to use unit conversion website plus bunch o
 Visit the Website - http://codeezzi-utility.surge.sh/  or [click here](http://codeezzi-utility.surge.sh/).
 
 Our Contributors - [contributors](http://codeezzi-utility.surge.sh/contributors.html)
+
+If you want to add Color Gradients to your code [click here](https://backgroundgradients.com/) or  visit : https://backgroundgradients.com/  
  
 `Tools marked with ☑ are already completed`
 
