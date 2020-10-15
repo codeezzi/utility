@@ -60,7 +60,7 @@ var converter = {
 }
 
     function morseConv(value) { 
-      console.log(value);
+    //  console.log(value);
       var output = '';
       for (var i = 0; i < value.length; i++) {
         if(converter[value.charAt(i)]==' ')
@@ -90,6 +90,7 @@ var converter = {
       document.getElementById("morse").innerHTML.split("").forEach(function(letter) {
           switch(letter) {
               case ".":
+
                   gainNode.gain.setValueAtTime(1, t);
                   t += dot;
                   gainNode.gain.setValueAtTime(0, t);
