@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Stock Return Calculator</title>
+<!--  Styles  -->
+  
+    <link rel="stylesheet"
+     href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" 
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" 
+    href="../../assets/styles/style.css" />
+    <link rel="stylesheet" text="text/css" 
+    href="./stockreturn.css" />
+    <script src="stockreturn.js"></script>
+  </head>
+  <body>
+    <!--  Navbar  -->
+    <nav class="site-header sticky-top py-1 text-light">
+      <div
+        class="container d-flex flex-column flex-md-row justify-content-between align-items-center"
+      >
+        <a class="py-2 text-light" href="/index.html">
+          <i class="fa fa-cogs fa-2x" aria-hidden="true"></i>
+        </a>
+
+        <div class="btn-group d-none d-md-block py-2">
+          <button
+            type="button"
+            class="btn btn-link text-light dropdown-toggle text-decoration-none"
+            data-toggle="dropdown"
+          >
+            Conversion Tools
+          </button>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Demo</a>
+          </div>
+        </div>
+
+        <div class="btn-group d-none d-md-block py-2">
+          <button
+            type="button"
+            class="btn btn-link text-light dropdown-toggle text-decoration-none"
+            data-toggle="dropdown"
+          >
+            Daily Use Tools
+          </button>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Demo</a>
+          </div>
+        </div>
+
+        <div class="btn-group d-none d-md-block py-2">
+          <button
+            type="button"
+            class="btn btn-link text-light dropdown-toggle text-decoration-none"
+            data-toggle="dropdown"
+          >
+            Finance Tools
+          </button>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Demo</a>
+          </div>
+        </div>
+
+        <div class="btn-group d-none d-md-block py-2">
+          <button
+            type="button"
+            class="btn btn-link text-light dropdown-toggle text-decoration-none"
+            data-toggle="dropdown"
+          >
+            Mathmetical Tools
+          </button>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Demo</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--  Navbar End  -->
+      <!-- Stock Return -->
+      <div class="container1">
+        <div class="calculator-stockreturn">
+            <div class="inputs">
+                <label>Intial Stock Price</label>
+                <input type="text" name="intialprice" id="intialprice" />
+            </div><br>
+            <div class="inputs">
+                <label>Ending Stock Price</label>
+                <input type="text" name="endingprice" id="endingprice" />
+            </div><br>
+            <div class="inputs">
+                <label>Dividends</label>
+                <input type="text" name="dividends" id="dividends" />
+            </div><br>
+            <div class="inputs">
+                <label>Years of Investment</label>
+                <input type="text" name="time" id="time" />
+            </div><br>
+            <div class="container1">
+                <button class="btn-calculate" onclick="StockReturn()">
+                    Calculate
+                </button>
+            </div>
+            <div class="outputs">
+                <label>Stock Return Rate </label>
+                <input type="text" name="cial1" id="stockreturnvalue"/><span>%</span>
+            </div><br>
+            <div class="outputs">
+                <label>Compound Annual Growth Rate</label><span>%</span>
+                <input type="text" name="cial2" id="compoundgrowth"/>
+            </div>
+        </div>
+    </div>
+    <!-- Stock Return End -->
+
+
+
+
+    <style>
+        .footer {
+          position: fixed;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          color: rgba(15, 1, 1, 0.822);
+        }
+        </style>
+        
+        <div class="footer">
+
+     <!--  Footer  -->
+     <footer class="border-top py-3 px-4">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <p class="m-0">Copyright &copy; 2020 codeezzi</p>
+            <p class="m-0">Page Created by <a href="https://github.com/Salonii02" target="_blank">Saloni Sawarkar</a></p>
+          </div>
+          <div class="col-md-6 text-md-right">
+               <a href="#" class="text-dark">Terms of Use</a>
+            <span class="text-muted mx-2">|</span>
+            <a href="#" class="text-dark">Privacy Policy</a>
+          </div>
+        </div>
+      </footer>
+      </div>
+      <!--  Footer End  -->
+    </body>
+</html>

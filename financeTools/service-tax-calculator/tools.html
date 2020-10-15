@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript"></script>
+    <title>Service Tax Calculator</title>
+</head>
+
+<body>
+
+      <!--  Navbar  -->
+      <nav class="site-header sticky-top py-1 text-light">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <a class="py-2 text-light" href="/index.html">
+                <i class="fa fa-cogs fa-2x" aria-hidden="true"></i>
+            </a>
+  
+            <div class="btn-group d-none d-md-block py-2">
+                <button type="button" class="btn btn-link text-light dropdown-toggle text-decoration-none" data-toggle="dropdown">Conversion Tools</button>
+                <div class="dropdown-menu">
+                    
+                    <a href="/conversionTools/Angle_Conversion/angleconversions.html" class="dropdown-item">Angle Conversion Tool</a>
+                    <a href="/conversionTools/density/density.html" class="dropdown-item">Density Conversion Tool</a>
+                    <a href="/conversionTools/Energy/energy.html" class="dropdown-item">Energy Conversion Tool</a>
+                    <a href="/conversionTools/fuelEfficiency/fuel.html" class="dropdown-item">Fuel Efficiency Calculator</a>
+                    <a href="/conversionTools/image/image.html" class="dropdown-item">Image Conversion Tool</a>
+                    <a href="/conversionTools/imagePdf/imagePdf.html" class="dropdown-item">Image to PDF Conversion Tool</a>
+                    <a href="/conversionTools/length/length.html" class="dropdown-item">Length Conversion Tool</a>
+                    <a href="/conversionTools/power/power.html" class="dropdown-item">Power Conversion Tool</a>
+                    <a href="/conversionTools/pressure/pressure.html" class="dropdown-item">Pressure Conversion Tool</a>
+                    <a href="/conversionTools/temperture/temperture.html" class="dropdown-item">Temperture Conversion Tool</a>
+                    <a href="/conversionTools/Torque/torque.html" class="dropdown-item">Torque Conversion Tool</a>
+                    <a href="#" class="dropdown-item">Demo</a>
+  
+                </div>
+            </div>
+  
+            <div class="btn-group d-none d-md-block py-2">
+                <button type="button" class="btn btn-link text-light dropdown-toggle text-decoration-none" data-toggle="dropdown">Daily Use Tools</button>
+                <div class="dropdown-menu">
+                    
+                    <a href="/dailyUseTools/bmicalculator/bmi-calculator.html" class="dropdown-item">BMI Calculator</a>
+                    <a href="/dailyUseTools/notes/notes.html" class="dropdown-item">Take Notes</a>
+                    <a href="/dailyUseTools/passwordGenerator/passwordGenerator.html" class="dropdown-item">Password Generator</a>
+                    <a href="#" class="dropdown-item">Demo</a>
+  
+                </div>
+            </div>
+        <div class="btn-group d-none d-md-block py-2">
+          <button
+            type="button"
+            class="btn btn-link text-light dropdown-toggle text-decoration-none"
+            data-toggle="dropdown">
+            Finance Tools
+          </button>
+          <div class="dropdown-menu">
+            
+            <a href="financeTools/compound-interest-calculator/compoundinterestcalculator.html" class="dropdown-item">Compound Interest Calculator</a>
+            <a href="/financeTools/discountcalculator/discount.html" class="dropdown-item">Discount Calculator</a>
+            <a href="/financeTools/emiCalculator/emi-calculator.html" class="dropdown-item">EMI Calculator</a>
+            <a href="/financeTools/mortgageCalculator/mortgageCalc.html" class="dropdown-item">Mortgage Calculator</a>
+            <a href="/financeTools/retirementcalaculator/index.html" class="dropdown-item">Retirement Calculator</a>
+            <a href="/financeTools/service-tax-calculator/tools.html" class="dropdown-item">Service Tax Calculator</a>
+            <a href="#" class="dropdown-item">Demo</a>
+  
+          </div>
+        </div>
+  
+        <div class="btn-group d-none d-md-block py-2">
+            <button type="button" class="btn btn-link text-light dropdown-toggle text-decoration-none" data-toggle="dropdown">Mathematical Tools</button>
+            <div class="dropdown-menu">
+  
+                <a href="/mathmeticalTools/percentageCalculator/percentageCalculator.html" class="dropdown-item">Percentage Calculator</a>
+                <a href="#" class="dropdown-item">Demo</a>
+                
+            </div>
+        </div>
+  
+        </div>
+    </nav>
+    <!--  Navbar End  -->
+    <main>
+        <div class="container text-center bg-info">
+            <h2>Service Tax Calculator</h2>
+        </div>
+        <br> <br> <br>
+        <div class="text-center p-5 m-4">
+            <div>
+                <label for="price">Price (before GST): </label>
+                <input style="padding-left: 40px;" id="price" type="number" value="1" />
+            </div>
+            <br>
+            <div>
+                <label for="gst">GST rate (%): </label>
+                <input id="gst" type="number" value="0.6" />
+            </div>
+
+            <div style="padding-top: 5px; padding-left: 60px;">
+                <button style="padding: 5px;" class="bg-info" onclick="inpChange()">Calculate</button>
+            </div>
+            <br>
+            <div>
+                <label for="priceGst">Price (GST inclusive) : </label>
+                <input id="priceGst" type="number" readonly />
+            </div>
+        </div>
+
+    </main>
+
+    <!--  Footer  -->
+    <footer class="border-top py-3 px-4">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <p class="m-0">Copyright &copy; 2020 codeezzi</p>
+                <p class="m-0">Page Created by <a href="https://github.com/rahulvermafreelancer" target="_blank">Rahul Verma</a></p>
+            </div>
+            <div class="col-md-6 text-md-right">
+                <a href="#" class="text-dark">Terms of Use</a>
+                <span class="text-muted mx-2">|</span>
+                <a href="#" class="text-dark">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+    <!--  Footer End  -->
+
+    <script>
+        priceEle = document.getElementById("price");
+        gstEle = document.getElementById("gst");
+        priceGstEle = document.getElementById("priceGst");
+
+        function calculateGst(price, tax) {
+            return (price * tax / 100) + price;
+        }
+
+        function inpChange() {
+            if (!isNaN(priceEle.value) && !isNaN(gstEle.value)) {
+                price = Number(priceEle.value);
+                gst = Number(gstEle.value);
+                priceGstEle.value = calculateGst(price, gst).toFixed(3);
+            }
+        }
+        inpChange();
+    </script>
+</body>
+
+</html>
