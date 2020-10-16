@@ -73,7 +73,7 @@ If you want to add Color Gradients to your code [click here](https://backgroundg
 - [ ] [roman numericals]
 - [ ] [ratio]
 - [ ] [propotions]
-- [ ] [decimal to fraction]
+- [x] [decimal to fraction]
 - [ ] [quadratic equations]
 - [ ] [cubic equations]
 - [ ] [GCD]
