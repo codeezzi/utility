@@ -51,7 +51,7 @@ If you want to add Color Gradients to your code [click here](https://backgroundg
 - [ ] [frequency]
 - [x] [image](conversionTools/image)
 - [ ] [radiation]
-- [ ] [resistence]
+- [x] [resistence](conversionTools/resistance)
 - [ ] [power]
 - [ ] [flow]
 - [x] [angle](conversionTools/Angle_Conversion)
