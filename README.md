@@ -71,7 +71,7 @@ If you want to add Color Gradients to your code [click here](https://backgroundg
 - [ ] [number base]
 - [ ] [number series]
 - [ ] [roman numericals]
-- [ ] [ratio]
+- [x] [ratio](mathematicalTools/ratio/ratio.html)
 - [ ] [propotions]
 - [x] [decimal to fraction](mathematicalTools/decimalToFraction)
 - [x] [quadratic equations](mathematicalTools/quadratic)
