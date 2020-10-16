@@ -1,16 +1,10 @@
-/*
-***
-* COSTUME STYLESHEET
-***
-* Please use the bootstrap color pallet and available css variables
-* for a more consistent design
-*/
+.heading {
+  background-color: #6610f2;
+}
 
-/*
-*----------------------------------------------------------------
-* SITE HEADER
-*----------------------------------------------------------------
-*/
+.inputs {
+  width: 150px;
+}
 
 .site-header {
   background-color: rgba(0, 0, 0, 0.85);
@@ -18,26 +12,8 @@
   backdrop-filter: saturate(180%) blur(20px);
 }
 
-#slider-contributors{
-  background-color: #FFCC00 !important;
-}
-
-#slider-gradients{
-  background-color: #CC0000 !important;
-}
-/*
-*----------------------------------------------------------------
-* HERO SECTION
-*----------------------------------------------------------------
-*/
 .hero-section {
   background-color: var(--indigo);
-}
-
-.hero-section__graphic {
-
-    /* to be added */
-
 }
 
 .hero-section__graphic,
@@ -88,4 +64,10 @@
 }
 footer .row a {
   text-decoration: none;
+}
+
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }
