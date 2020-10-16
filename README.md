@@ -74,7 +74,7 @@ If you want to add Color Gradients to your code [click here](https://backgroundg
 - [ ] [ratio]
 - [ ] [propotions]
 - [x] [decimal to fraction](mathematicalTools/decimalToFraction)
-- [ ] [quadratic equations]
+- [x] [quadratic equations](mathematicalTools/quadratic)
 - [ ] [cubic equations]
 - [ ] [GCD]
 - [ ] [LCM]
