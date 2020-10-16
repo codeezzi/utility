@@ -38,7 +38,7 @@ If you want to add Color Gradients to your code [click here](https://backgroundg
 - [x] [Temperture](conversionTools/temperture/temperture.html)
 - [x] [Length](conversionTools/length)
 - [ ] [weight]
-- [ ] [speed]
+- [x] [speed](conversionTools/speed/speed.html)
 - [ ] [currency]
 - [ ] [time]
 - [ ] [area]
@@ -51,7 +51,7 @@ If you want to add Color Gradients to your code [click here](https://backgroundg
 - [ ] [frequency]
 - [x] [image](conversionTools/image)
 - [ ] [radiation]
-- [ ] [resistence]
+- [x] [resistence](conversionTools/resistance)
 - [ ] [power]
 - [ ] [flow]
 - [x] [angle](conversionTools/Angle_Conversion)
@@ -71,12 +71,12 @@ If you want to add Color Gradients to your code [click here](https://backgroundg
 - [ ] [number base]
 - [ ] [number series]
 - [ ] [roman numericals]
-- [ ] [ratio]
-- [x] [propotions]
-- [ ] [decimal to fraction]
-- [ ] [quadratic equations]
+- [x] [ratio](mathematicalTools/ratio/ratio.html)
+- [ ] [propotions]
+- [x] [decimal to fraction](mathematicalTools/decimalToFraction)
+- [x] [quadratic equations](mathematicalTools/quadratic)
 - [ ] [cubic equations]
-- [ ] [GCD]
+- [x] [GCD, HCF, LCM](mathematicalTools/GCD_HCF_LCM_Calculator)
 - [ ] [LCM]
 - [ ] [expression evaluator]
 - [ ] [area]
