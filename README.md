@@ -67,10 +67,10 @@ If you want to add Color Gradients to your code [click here](https://backgroundg
 - [ ] [resolution]
 - [ ] [charge]
 
-### [Mathmetical Tools](mathmeticalTools)
+### [Mathematical Tools](mathematicalTools)
 - [ ] [number base]
 - [ ] [number series]
-- [ ] [roman numericals]
+- [x] [roman numericals](mathematicalTools/romanNumerals/romanNumerals.html)
 - [x] [ratio](mathematicalTools/ratio/ratio.html)
 - [ ] [propotions]
 - [x] [decimal to fraction](mathematicalTools/decimalToFraction)
