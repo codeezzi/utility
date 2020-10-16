@@ -1,0 +1,158 @@
+body {
+  background-color: rgba(173, 216, 230, 0.3);
+  font-family: "Multi", sans-serif;
+}
+
+@media screen and (max-width: 400px) {
+  input {
+    width: 100%;
+  }
+}
+
+div#calculatorWrap {
+  width: 400px;
+  background: rgba(173, 216, 230, 0.9);
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font-size: 0.9em;
+  padding: 9px 22px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: auto;
+}
+
+div.calculatorTitle {
+  color: #fff;
+  background-color: #007bff;
+  font-weight: bold;
+  margin: -0.3em -0.3em 1em -0.3em;
+  border-bottom: 1px solid #aaa;
+  padding: 0.3em;
+  text-align: center;
+  border-radius: 5px;
+  color: #333;
+}
+
+div.calculatorInputs {
+  margin: 0.5em 0em 0.5em 0em;
+}
+
+div.calculatorInputGroup {
+  text-align: center;
+  margin-top: 0.25em;
+  margin-bottom: 0.5em;
+}
+
+div.calculatorInputGroupAligned {
+  text-align: left;
+  margin: auto;
+  margin-top: 0.25em;
+  margin-bottom: 0.5em;
+}
+
+div.calculatorInputGroupAligned label,
+div.calculatorInputGroupAligned select,
+div.calculatorInputGroupAligned input {
+  display: inline-block;
+}
+
+div.calculatorInputGroupAligned label {
+  text-align: left;
+  margin-right: 2px;
+}
+
+div.calculatorInputGroupInline {
+  display: inline-block;
+  margin-top: 0.25em;
+  margin-bottom: 0.5em;
+}
+
+div.calculatorInputGroupInline label.aligned {
+  width: 16em;
+}
+
+div.calculatorInputGroupPadding {
+  padding: 6px 0px 6px 0px;
+}
+
+div.calculatorButton {
+  margin: 0.5em 0em 0.5em 0em;
+  background-color: #007bff;
+  border-radius: 5px;
+}
+
+div.calculatorAnswer {
+  color: #333333;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  margin: 0em -0.3em -0.3em -0.3em;
+  padding: 0.3em;
+  font-size: 100%;
+}
+
+div#calculatorAnswer {
+  color: #333333;
+  background-color: #ffffff;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  margin: 0em -0.3em -0.3em -0.3em;
+  padding: 0.3em;
+  font-size: 100%;
+}
+
+.site-header {
+  background-color: rgba(0, 0, 0, 0.85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+
+.hero-section {
+  background-color: var(--indigo);
+}
+
+.hero-section__graphic,
+.hero-section__graphic:before,
+.hero-section__graphic:after {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 10vh;
+  height: 10vh;
+  border-radius: 40% 30% 30% 40% / 60% 40% 60% 40%;
+}
+
+.hero-section__graphic:before,
+.hero-section__graphic:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  animation: float 10s infinite linear;
+}
+.hero-section__graphic:after {
+  animation-direction: reverse;
+  animation-delay: 500ms;
+}
+
+.hero-section__icon {
+  fill: var(--light);
+  width: 100%;
+  height: auto;
+}
+@keyframes float {
+  0% {
+    transform: translate(0%, 0%) rotate(0);
+  }
+
+  33% {
+    transform: translate(2%, 2%) rotate(120deg);
+  }
+
+  66% {
+    transform: translate(2%, -2%) rotate(240deg);
+  }
+
+  to {
+    transform: translate(0%, 0%) rotate(360deg);
+  }
+}
