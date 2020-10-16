@@ -72,11 +72,11 @@ If you want to add Color Gradients to your code [click here](https://backgroundg
 - [ ] [number series]
 - [ ] [roman numericals]
 - [x] [ratio](mathematicalTools/ratio/ratio.html)
-- [ ] [propotions]
+- [x] [propotions](mathematicalTools/proportions)
 - [x] [decimal to fraction](mathematicalTools/decimalToFraction)
 - [x] [Linear Equations](mathematicalTools/LinearEquation)
 - [x] [quadratic equations](mathematicalTools/quadratic)
-- [ ] [cubic equations]
+- [x] [cubic equations]
 - [x] [GCD, HCF, LCM](mathematicalTools/GCD_HCF_LCM_Calculator)
 - [ ] [expression evaluator]
 - [ ] [area]
