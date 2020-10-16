@@ -1,0 +1,72 @@
+
+body{
+    background-image:url("Timber.jpg");
+    color: white;
+    margin:0;
+    font-family: "Montserrat", "Avenir";
+}
+
+.color{
+    width: 30%;
+    background: blue;
+    float: left;
+    margin:1.66%;
+    padding-bottom: 30%;
+    border-radius: 15%;
+    transition: background 0.3s;
+}
+
+#heading{
+    margin-top:20px;
+    text-align: center;
+}
+
+#special{
+    font-size: 150%;
+    }
+
+h1{
+    text-transform: uppercase;
+    font-weight: 10;
+    line-height: 1.1;
+    padding-top: 20px;
+}
+
+.selected{
+    color: white;
+    background-color:#07689f;
+    transition: all 0.3s;
+}
+
+button{
+    border: 2px solid black;
+    background: none;
+    height: 100%;
+    font-weight: 700;
+    font-size: inherit;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    border-color:#07689f;
+    outline: none;
+}
+#menu{
+    display: inline-block;
+    width: 20%;
+}
+button:hover{
+    color: white;
+    background-color:#07689f;
+}
+
+#answers{
+    visibility: hidden;
+    font-size:130%;
+}
+
+nav{
+    background-color:#07689f;
+}
+
+.toBottom{
+    bottom:0:
+}
