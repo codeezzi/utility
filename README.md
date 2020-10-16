@@ -74,10 +74,10 @@ If you want to add Color Gradients to your code [click here](https://backgroundg
 - [x] [ratio](mathematicalTools/ratio/ratio.html)
 - [ ] [propotions]
 - [x] [decimal to fraction](mathematicalTools/decimalToFraction)
+- [x] [Linear Equations](mathematicalTools/LinearEquation)
 - [x] [quadratic equations](mathematicalTools/quadratic)
 - [ ] [cubic equations]
 - [x] [GCD, HCF, LCM](mathematicalTools/GCD_HCF_LCM_Calculator)
-- [ ] [LCM]
 - [ ] [expression evaluator]
 - [ ] [area]
 - [ ] [volume]
