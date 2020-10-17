@@ -67,7 +67,7 @@ Our Contributors - [contributors](http://codeezzi-utility.surge.sh/contributors.
 
 ### [Mathmetical Tools](mathmeticalTools)
 - [ ] [number base]
-- [ ] [number series]
+- [x] [number series](mathmeticalTools/numberSeriesGenerator/numberSeriesGenerator.html)
 - [ ] [roman numericals]
 - [ ] [ratio]
 - [ ] [propotions]
