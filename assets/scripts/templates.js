@@ -1,3 +1,6 @@
+/**
+ * Template class to generate html templates
+ */
 class Templates {
     constructor(categories = UTILITY_CATEGORIES, tools = UTILITY_TOOLS) {
         this.categories = categories;
