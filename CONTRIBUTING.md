@@ -1,7 +1,7 @@
 
 ### TLDR of contributing.md:
 
-- Ensure that no one is working on (or already completed) the tool you want to work on.
+- Ensure that no one is working on (or already completed) the tool you want to work on.`Tools marked with ☑ are already completed`
 - Use descriptive commit messages
 - You can create an issue for the tool you want to claim and work on
 - You can only use javascript.
@@ -18,10 +18,11 @@
 - Please make sure your folder is in any one of the Folder `conversionTools`,`mathmeticlaTools`,`financeTools` or `dailyUseTools`. For example if you want to work on length conversion tool then place your folder in the `conversionTools` folder. The list for tools with their respective folder is mentioned above 
 - The name of your folder should be the name o the tool you are working on for example: if you want to work on length conversion tool, Then name your folder would be `length`.
 - Under your folder name your files as follows. For length conversion tool the files would be `length.html`, `length.css`,`length.js`
-- At the end link your files properly and also link your tool's
-html file to the navbar of the `index.html`
+- At the end link your files properly
 - Add your name to the footer of your tool's html you are working on. For example if you are working on length conversion tool then  
 add your name in the footer of `lenght.html`.
+- `Add navbar` in your tool's HTML file you can `copy the navbar from index.html`
+- `Add screenShot` of your Tool in PR Message and in your Tool's Folder.
 
 ### Opening Issues
 When you open an issue, please make sure the Tool is not already implemented. 
