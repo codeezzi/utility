@@ -1,0 +1,29 @@
+.title {
+  text-align: center;
+  padding: 20px;
+}
+
+#content {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
+
+.site-header{
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+
+input {
+  width: 80px;
+}
+
+.total {
+  font-weight: bold;
+}
+
+.btn-btn {
+  background-color: blueviolet;
+  color: white;
+}

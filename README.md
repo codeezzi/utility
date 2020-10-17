@@ -1,5 +1,24 @@
-# utility
+<h1 align="center"> <a href="codeezzi-utility.surge.sh"> UTILITY </a></h1>
+
+<p align="center">
+  <img src="assets/img/utility-1.png" />
+</p>
+
+[![Created Badge](https://badges.pufler.dev/created/codeezzi/utility)](https://badges.pufler.dev) [![Updated Badge](https://badges.pufler.dev/updated/codeezzi/utility)](https://badges.pufler.dev) [![GitHub contributors](https://img.shields.io/github/contributors/codeezzi/utility.svg)](https://GitHub.com/codeezzi/utility/contributors/) [![GitHub pull-requests](https://img.shields.io/github/issues-pr/codeezzi/utility.svg)](https://GitHub.com/codeezzi/utility/pull/) [![GitHub pull-requests closed](https://img.shields.io/github/issues-pr-closed/codeezzi/utility.svg)](https://github.com/codeezzi/utility/pulls?q=is%3Apr+is%3Aclosed) [![GitHub issues](https://img.shields.io/github/issues/codeezzi/utility.svg)](https://GitHub.com/codeezzi/utility/issues/) [![GitHub issues-closed](https://img.shields.io/github/issues-closed/codeezzi/utility.svg)](https://GitHub.com/codeezzi/utility/issues?q=is%3Aissue+is%3Aclosed) [![Visits Badge](https://badges.pufler.dev/visits/codeezzi/utility)](https://badges.pufler.dev) [![Commits Badge](https://badges.pufler.dev/commits/monthly/shubham2704)](https://badges.pufler.dev)
+
 Utility is meant to be a simple easy to use unit conversion website plus bunch of utility tools. This will be a static website made completly from HTML,CSS and Javascript or any other Frontend Framwork. 
+
+Visit the Website - http://codeezzi-utility.surge.sh/  or [click here](http://codeezzi-utility.surge.sh/).
+
+Our Contributors - [contributors](http://codeezzi-utility.surge.sh/contributors.html)
+
+If you want to add Color Gradients to your code [click here](https://backgroundgradients.com/) or  visit : https://backgroundgradients.com/  
+ 
+`Tools marked with ☑ are already completed`
+
+---
+
+**Note: Please Don't Make Any Changes In `index.html` AND `contributors.html`**
 
 ---
 
@@ -16,78 +35,79 @@ Utility is meant to be a simple easy to use unit conversion website plus bunch o
 
 
 ### [Conversion tools](conversionTools)
-- [Temperture]
-- [Length]
-- [weight]
-- [speed]
-- [currency]
-- [time]
-- [area]
-- [fuel]
-- [pressure]
-- [energy]
-- [current]
-- [force]
-- [sound]
-- [frequency]
-- [image]
-- [radiation]
-- [resistence]
-- [power]
-- [flow]
-- [angle]
-- [magnet]
-- [viscosity]
-- [torque]
-- [density]
-- [conductance]
-- [inductance]
-- [capacitence]
-- [heat density]
-- [surface tension]
-- [resolution]
-- [charge]
+- [x] [Temperture](conversionTools/temperture/temperture.html)
+- [x] [Length](conversionTools/length)
+- [ ] [weight]
+- [x] [speed](conversionTools/speed/speed.html)
+- [ ] [currency]
+- [ ] [time]
+- [ ] [area]
+- [x] [fuel](conversionTools/fuelEfficiency/fuel.html)
+- [x] [pressure](conversionTools/pressure)
+- [x] [energy](conversionTools/Energy/energy.html)
+- [ ] [current]
+- [ ] [force]
+- [ ] [sound]
+- [ ] [frequency]
+- [x] [image](conversionTools/image)
+- [ ] [radiation]
+- [x] [resistence](conversionTools/resistance)
+- [ ] [power]
+- [ ] [flow]
+- [x] [angle](conversionTools/Angle_Conversion)
+- [ ] [magnet]
+- [ ] [viscosity]
+- [x] [torque](conversionTools/Torque/torque.html)
+- [x] [density](conversionTools/density)
+- [ ] [conductance]
+- [ ] [inductance]
+- [ ] [capacitence]
+- [ ] [heat density]
+- [ ] [surface tension]
+- [ ] [resolution]
+- [ ] [charge]
 
-### [Mathmetical Tools](mathmeticalTools)
-- [number base]
-- [number series]
-- [roman numericals]
-- [ratio]
-- [propotions]
-- [decimal to fraction]
-- [quadratic equations]
-- [cubic equations]
-- [GCD]
-- [LCM]
-- [expression evaluator]
-- [area]
-- [volume]
-- [surface area]
-- [parameter]
-- [binary]
+### [Mathematical Tools](mathematicalTools)
+- [x] [number base](mathematicalTools/numberBase)
+- [ ] [number series]
+- [x] [roman numericals](mathematicalTools/romanNumerals/romanNumerals.html)
+- [x] [ratio](mathematicalTools/ratio/ratio.html)
+- [x] [propotions](mathematicalTools/proportions)
+- [x] [decimal to fraction](mathematicalTools/decimalToFraction)
+- [x] [Linear Equations](mathematicalTools/LinearEquation)
+- [x] [quadratic equations](mathematicalTools/quadratic)
+- [x] [cubic equations]
+- [x] [GCD, HCF, LCM](mathematicalTools/GCD_HCF_LCM_Calculator)
+- [ ] [expression evaluator]
+- [ ] [area]
+- [ ] [volume]
+- [ ] [surface area]
+- [ ] [parameter]
+- [ ] [binary]
+- [x] [percentage calculator](mathematicalTools/percentageCalculator/percentageCalculator.html)
 
 ### [Finance Tools](financeTools)
-- [intrest calculator]
-- [compound interest calculator]
-- [return or investment calculator]
-- [stock return calculator]
-- [retirement calculator]
-- [mortage calculator]
-- [EMI calculator]
-- [service tax calculator]
-- [discount calculator]
-- [loan calculator]
-- [fixed deposit calculator]
+- [ ] [intrest calculator]
+- [x] [compound interest calculator](financeTools/compound-interest-calculator)
+- [ ] [return or investment calculator]
+- [x] [stock return calculator](financeTools/stock-return-calculator)
+- [x] [retirement calculator](financeTools/retirementcalaculator/index.html)
+- [x] [mortage calculator](financeTools/mortgageCalculator)
+- [x] [EMI calculator](financeTools/emiCalculator)
+- [x] [service tax calculator](financeTools/service-txt-calculator)
+- [x] [discount calculator](financeTools/discountcalculator)
+- [ ] [loan calculator]
+- [ ] [fixed deposit calculator]
 
 ### [Daily Use Tools](dailyUseTools)
-- [compass]
-- [morse convertor]
-- [scientific calculator]
-- [jwelery price]
-- [fuel cost]
-- [time zone]
-- [password generator]
-- [BMI]
+- [ ] [compass]
+- [x] [morse convertor](dailyUseTools/morseConverter)
+- [ ] [scientific calculator]
+- [ ] [jwelery price]
+- [ ] [fuel cost]
+- [ ] [time zone]
+- [x] [password generator](dailyUseTools/passwordGenerator/passwordGenerator.html)
+- [x] [BMI](dailyUseTools/bmicalculator/bmi-calculator.html)
 
 *Feel free to suggest if important tools are missing.*
 
@@ -110,16 +130,16 @@ Utility is meant to be a simple easy to use unit conversion website plus bunch o
 ### Follow the theme design/ Follow the design of `index.html` file.
 
 ### Folders and Files
-- Please make sure your folder is in any one of the Folder `conversionTools`,`mathmeticlaTools`,`financeTools` or `dailyUseTools`. For example if you want to work on length conversion tool then place your folder in the `conversionTools` folder. The list for tools with their respective folder is mentioned above 
+- Please make sure your folder is in any one of the Folder `conversionTools`,`mathmeticlaTools`,`financeTools` or `dailyUseTools`. For example if you want to work on length conversion tool then place your folder in the `conversionTools` folder. The list for tools with their respective folder is mentioned above
 - The name of your folder should be the name o the tool you are working on for example: if you want to work on length conversion tool, Then name your folder would be `length`.
 - Under your folder name your files as follows. For length conversion tool the files would be `length.html`, `length.css`,`length.js`
 - At the end link your files properly and also link your tool's
 html file to the navbar of the `index.html`
-- Add your name to the footer of your tool's html you are working on. For example if you are working on length conversion tool then  
+- Add your name to the footer of your tool's html you are working on. For example if you are working on length conversion tool then
 add your name in the footer of `lenght.html`.
 
 ### Opening Issues
-When you open an issue, please make sure the Tool is not already implemented. 
+When you open an issue, please make sure the Tool is not already implemented.
 Opened Issues by existing Problem will be closed & PR made to this Issue marked as **spam**
 The Contributor who opened an issue will be assigned/prefered to the issue. If there is no PR within about 7 Days the issue will be assigned to another Contributor.
 
@@ -160,4 +180,4 @@ git push origin branch-name
 * Your PR has to link the Issue.
 * Your Solution must be correct.
 
-__Thank You!__ 
+__Thank You!__
