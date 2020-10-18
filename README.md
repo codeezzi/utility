@@ -98,7 +98,7 @@ Our Contributors - [contributors](http://codeezzi-utility.surge.sh/contributors.
 - [ ] [fixed deposit calculator]
 
 ### [Daily Use Tools](dailyUseTools)
-- [ ] [compass]
+- [x] [compass]
 - [ ] [morse convertor]
 - [ ] [scientific calculator]
 - [ ] [jwelery price]
