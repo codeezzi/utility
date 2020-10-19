@@ -85,5 +85,13 @@ body {
     border-radius: 6px;
     color: #000000;
     background-color: #BB99FF;
-    margin:50px 0px auto 0px;
+    margin:50px 0px 50px 0px;
     }
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: antiquewhite;
+    font-family: cursive;
+}
