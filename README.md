@@ -6,7 +6,7 @@
 
 [![Created Badge](https://badges.pufler.dev/created/codeezzi/utility)](https://badges.pufler.dev) [![Updated Badge](https://badges.pufler.dev/updated/codeezzi/utility)](https://badges.pufler.dev) [![GitHub contributors](https://img.shields.io/github/contributors/codeezzi/utility.svg)](https://GitHub.com/codeezzi/utility/contributors/) [![GitHub pull-requests](https://img.shields.io/github/issues-pr/codeezzi/utility.svg)](https://GitHub.com/codeezzi/utility/pull/) [![GitHub pull-requests closed](https://img.shields.io/github/issues-pr-closed/codeezzi/utility.svg)](https://github.com/codeezzi/utility/pulls?q=is%3Apr+is%3Aclosed) [![GitHub issues](https://img.shields.io/github/issues/codeezzi/utility.svg)](https://GitHub.com/codeezzi/utility/issues/) [![GitHub issues-closed](https://img.shields.io/github/issues-closed/codeezzi/utility.svg)](https://GitHub.com/codeezzi/utility/issues?q=is%3Aissue+is%3Aclosed) [![Visits Badge](https://badges.pufler.dev/visits/codeezzi/utility)](https://badges.pufler.dev) [![Commits Badge](https://badges.pufler.dev/commits/monthly/shubham2704)](https://badges.pufler.dev)
 
-Utility is meant to be a simple easy to use unit conversion website plus bunch of utility tools. This will be a static website made completly from HTML,CSS and Javascript or any other Frontend Framwork. 
+Utility is meant to be a simple easy to use unit conversion website plus bunch of utility tools. This will be a static website made completly from HTML,CSS and Javascript or any other Frontend Framework. 
 
 Visit the Website - http://codeezzi-utility.surge.sh/  or [click here](http://codeezzi-utility.surge.sh/).
 
@@ -29,13 +29,13 @@ If you want to add Color Gradients to your code [click here](https://backgroundg
 ## Types of Tools to be Added
 
 - [Conversion tools](#Conversion-tools)
-- [Mathmetical Tools](#Mathmetical-Tools)
+- [Mathematical Tools](#Mathmetical-Tools)
 - [Finance Tools](#Finance-Tools)
 - [Daily Use Tools](#Daily-Use-Tools)
 
 
 ### [Conversion tools](conversionTools)
-- [x] [Temperture](conversionTools/temperture/temperture.html)
+- [x] [Temperature](conversionTools/temperture/temperture.html)
 - [x] [Length](conversionTools/length)
 - [ ] [weight]
 - [x] [speed](conversionTools/speed/speed.html)
@@ -87,12 +87,12 @@ If you want to add Color Gradients to your code [click here](https://backgroundg
 - [x] [percentage calculator](mathematicalTools/percentageCalculator/percentageCalculator.html)
 
 ### [Finance Tools](financeTools)
-- [ ] [intrest calculator]
+- [ ] [interest calculator]
 - [x] [compound interest calculator](financeTools/compound-interest-calculator)
 - [ ] [return or investment calculator]
 - [x] [stock return calculator](financeTools/stock-return-calculator)
 - [x] [retirement calculator](financeTools/retirementcalaculator/index.html)
-- [x] [mortage calculator](financeTools/mortgageCalculator)
+- [x] [mortgage calculator](financeTools/mortgageCalculator)
 - [x] [EMI calculator](financeTools/emiCalculator)
 - [x] [service tax calculator](financeTools/service-txt-calculator)
 - [x] [discount calculator](financeTools/discountcalculator)
@@ -103,7 +103,7 @@ If you want to add Color Gradients to your code [click here](https://backgroundg
 - [ ] [compass]
 - [x] [morse convertor](dailyUseTools/morseConverter)
 - [ ] [scientific calculator]
-- [ ] [jwelery price]
+- [ ] [jewelry price]
 - [ ] [fuel cost]
 - [ ] [time zone]
 - [x] [password generator](dailyUseTools/passwordGenerator/passwordGenerator.html)
@@ -130,8 +130,8 @@ If you want to add Color Gradients to your code [click here](https://backgroundg
 ### Follow the theme design/ Follow the design of `index.html` file.
 
 ### Folders and Files
-- Please make sure your folder is in any one of the Folder `conversionTools`,`mathmeticlaTools`,`financeTools` or `dailyUseTools`. For example if you want to work on length conversion tool then place your folder in the `conversionTools` folder. The list for tools with their respective folder is mentioned above
-- The name of your folder should be the name o the tool you are working on for example: if you want to work on length conversion tool, Then name your folder would be `length`.
+- Please make sure your folder is in any one of the Folder `conversionTools`,`mathmeticalTools`,`financeTools` or `dailyUseTools`. For example if you want to work on length conversion tool then place your folder in the `conversionTools` folder. The list for tools with their respective folder is mentioned above
+- The name of your folder should be the name o the tool you are working on for example: if you want to work on length conversion tool, then name your folder would be `length`.
 - Under your folder name your files as follows. For length conversion tool the files would be `length.html`, `length.css`,`length.js`
 - At the end link your files properly and also link your tool's
 html file to the navbar of the `index.html`
@@ -145,8 +145,8 @@ The Contributor who opened an issue will be assigned/prefered to the issue. If t
 
 ### Pull Requests
 - Only Pull Requests **joined with an Issue** and matching the **naming-conventions** (See Folders and Files) will be merged!
-- If there is no Issue joined in the PR your PR will be labled as **spam** and closed.
-- If your code don't passes the Checks your PR will be labled as **"invalid"** and the Issue stays open for the next PR!
+- If there is no Issue joined in the PR your PR will be labeled as **spam** and closed.
+- If your code don't passes the Checks your PR will be labeled as **"invalid"** and the Issue stays open for the next PR!
 - If your PR doesn't follow the Contributing Guidelines of this Repository it will be also marked as **spam** and closed!
 
 ## Getting Started
