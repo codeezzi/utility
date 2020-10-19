@@ -31,7 +31,7 @@
 
     function handler(e) {
       compass = e.webkitCompassHeading || Math.abs(e.alpha - 360);
-      compassCircle.style.transform = `translate(-50%, -50%) rotate(${(compass!=-360)?0:-compass}deg)`;
+      compassCircle.style.transform = `translate(-50%, -50%) rotate(${-compass}deg)`;
 
       // ±15 degree
       if (
