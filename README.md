@@ -11,6 +11,8 @@ Utility is meant to be a simple easy to use unit conversion website plus bunch o
 Visit the Website - http://codeezzi-utility.surge.sh/  or [click here](http://codeezzi-utility.surge.sh/).
 
 Our Contributors - [contributors](http://codeezzi-utility.surge.sh/contributors.html)
+
+If you want to add Color Gradients to your code [click here](https://backgroundgradients.com/) or  visit : https://backgroundgradients.com/  
  
 `Tools marked with ☑ are already completed`
 
@@ -36,7 +38,7 @@ Our Contributors - [contributors](http://codeezzi-utility.surge.sh/contributors.
 - [x] [Temperture](conversionTools/temperture/temperture.html)
 - [x] [Length](conversionTools/length)
 - [ ] [weight]
-- [ ] [speed]
+- [x] [speed](conversionTools/speed/speed.html)
 - [ ] [currency]
 - [ ] [time]
 - [ ] [area]
@@ -49,7 +51,7 @@ Our Contributors - [contributors](http://codeezzi-utility.surge.sh/contributors.
 - [ ] [frequency]
 - [x] [image](conversionTools/image)
 - [ ] [radiation]
-- [ ] [resistence]
+- [x] [resistence](conversionTools/resistance)
 - [ ] [power]
 - [ ] [flow]
 - [x] [angle](conversionTools/Angle_Conversion)
@@ -65,17 +67,17 @@ Our Contributors - [contributors](http://codeezzi-utility.surge.sh/contributors.
 - [ ] [resolution]
 - [ ] [charge]
 
-### [Mathmetical Tools](mathmeticalTools)
-- [ ] [number base]
-- [ ] [number series]
-- [ ] [roman numericals]
-- [ ] [ratio]
-- [ ] [propotions]
-- [ ] [decimal to fraction]
-- [ ] [quadratic equations]
-- [ ] [cubic equations]
-- [ ] [GCD]
-- [ ] [LCM]
+### [Mathematical Tools](mathematicalTools)
+- [x] [number base](mathematicalTools/numberBase)
+- [x] [number series](mathmeticalTools/numberSeriesGenerator/numberSeriesGenerator.html)
+- [x] [roman numericals](mathematicalTools/romanNumerals/romanNumerals.html)
+- [x] [ratio](mathematicalTools/ratio/ratio.html)
+- [x] [propotions](mathematicalTools/proportions)
+- [x] [decimal to fraction](mathematicalTools/decimalToFraction)
+- [x] [Linear Equations](mathematicalTools/LinearEquation)
+- [x] [quadratic equations](mathematicalTools/quadratic)
+- [x] [cubic equations](mathematicalTools/cubicEquation)
+- [x] [GCD, HCF, LCM](mathematicalTools/GCD_HCF_LCM_Calculator)
 - [ ] [expression evaluator]
 - [ ] [area]
 - [ ] [volume]
@@ -98,8 +100,9 @@ Our Contributors - [contributors](http://codeezzi-utility.surge.sh/contributors.
 - [ ] [fixed deposit calculator]
 
 ### [Daily Use Tools](dailyUseTools)
-- [x] [compass]
-- [ ] [morse convertor]
+- [ ] [compass]
+- [x] [color convertor](dailyUseTools/colorConverter)
+- [x] [morse convertor](dailyUseTools/morseConverter)
 - [ ] [scientific calculator]
 - [ ] [jwelery price]
 - [ ] [fuel cost]
@@ -118,7 +121,7 @@ Our Contributors - [contributors](http://codeezzi-utility.surge.sh/contributors.
 - Use descriptive commit messages
 - You can create an issue for the tool you want to claim and work on
 - You can only use javascript.
-- After completing the tool add it to the navbar of the index.html file
+- After completing the tool add it to the `assets/config/tools.js` under the related category
 - **FOLLOW THE DIRECTORY STRUCTURE AND NAMING CONVENTION**
 - **UPDATE THE `README.md` FILE AS YOU WORK ON A NEW TOOL**
 
@@ -131,10 +134,17 @@ Our Contributors - [contributors](http://codeezzi-utility.surge.sh/contributors.
 - Please make sure your folder is in any one of the Folder `conversionTools`,`mathmeticlaTools`,`financeTools` or `dailyUseTools`. For example if you want to work on length conversion tool then place your folder in the `conversionTools` folder. The list for tools with their respective folder is mentioned above
 - The name of your folder should be the name o the tool you are working on for example: if you want to work on length conversion tool, Then name your folder would be `length`.
 - Under your folder name your files as follows. For length conversion tool the files would be `length.html`, `length.css`,`length.js`
-- At the end link your files properly and also link your tool's
-html file to the navbar of the `index.html`
+- At the end add your tool to the `assets/config/tools.js` under the related category
 - Add your name to the footer of your tool's html you are working on. For example if you are working on length conversion tool then
 add your name in the footer of `lenght.html`.
+
+### Tools.js
+- Find your tool's category
+- Inside the tool's category array, add the tool object
+- Add title in a well formatted text; for example: `Length Conversion`.
+- Add a short description about your tool.
+- Add URL of your tool following this format: `/FOLDER_NAME/TOOL_HTML_NAME.html`
+
 
 ### Opening Issues
 When you open an issue, please make sure the Tool is not already implemented.

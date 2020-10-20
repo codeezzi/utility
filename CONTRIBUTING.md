@@ -5,7 +5,7 @@
 - Use descriptive commit messages
 - You can create an issue for the tool you want to claim and work on
 - You can only use javascript.
-- After completing the tool add it to the navbar of the index.html file
+- After completing the tool add it to the `assers/config/tools.js` under the related category
 - **FOLLOW THE DIRECTORY STRUCTURE AND NAMING CONVENTION**
 - **UPDATE THE `README.md` FILE AS YOU WORK ON A NEW TOOL**
 
@@ -23,6 +23,14 @@
 add your name in the footer of `lenght.html`.
 - `Add navbar` in your tool's HTML file you can `copy the navbar from index.html`
 - `Add screenShot` of your Tool in PR Message and in your Tool's Folder.
+- At the end add your tool to the `assers/config/tools.js` under the related category
+
+### Tools.js
+- Find your tool's category
+- Inside the tool's category array, add the tool object
+- Add title in a well formatted text; for example: `Length Conversion`.
+- Add a short description about your tool.
+- Add URL of your tool following this format: `/FOLDER_NAME/TOOL_HTML_NAME.html`
 
 ### Opening Issues
 When you open an issue, please make sure the Tool is not already implemented. 

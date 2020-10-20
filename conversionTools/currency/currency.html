@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Currency Converter</title>
+    <!-- <link rel="stylesheet" href="currency.css" /> -->
+  </head>
+  <body>
+    <!--  Navbar  -->
+    <nav class="site-header sticky-top py-1 bg-dark text-light">
+      <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+          <a class="py-2 text-light" href="/index.html">
+              <i class="fa fa-cogs fa-2x" aria-hidden="true"></i>
+          </a>
+
+          <div class="btn-group d-none d-md-block py-2">
+              <button type="button" class="btn btn-link text-light dropdown-toggle text-decoration-none" data-toggle="dropdown">Conversion Tools</button>
+              <div class="dropdown-menu">
+                  
+                  <a href="/conversionTools/Angle_Conversion/angleconversions.html" class="dropdown-item">Angle Conversion Tool</a>
+                  <a href="/conversionTools/density/density.html" class="dropdown-item">Density Conversion Tool</a>
+                  <a href="/conversionTools/Energy/energy.html" class="dropdown-item">Energy Conversion Tool</a>
+                  <a href="/conversionTools/fuelEfficiency/fuel.html" class="dropdown-item">Fuel Efficiency Calculator</a>
+                  <a href="/conversionTools/image/image.html" class="dropdown-item">Image Conversion Tool</a>
+                  <a href="/conversionTools/imagePdf/imagePdf.html" class="dropdown-item">Image to PDF Conversion Tool</a>
+                  <a href="/conversionTools/length/length.html" class="dropdown-item">Length Conversion Tool</a>
+                  <a href="/conversionTools/power/power.html" class="dropdown-item">Power Conversion Tool</a>
+                  <a href="/conversionTools/pressure/pressure.html" class="dropdown-item">Pressure Conversion Tool</a>
+                  <a href="/conversionTools/temperture/temperture.html" class="dropdown-item">Temperture Conversion Tool</a>
+                  <a href="/conversionTools/Torque/torque.html" class="dropdown-item">Torque Conversion Tool</a>
+                  <a href="#" class="dropdown-item">Demo</a>
+
+              </div>
+          </div>
+
+          <div class="btn-group d-none d-md-block py-2">
+              <button type="button" class="btn btn-link text-light dropdown-toggle text-decoration-none" data-toggle="dropdown">Daily Use Tools</button>
+              <div class="dropdown-menu">
+                  
+                  <a href="/dailyUseTools/bmicalculator/bmi-calculator.html" class="dropdown-item">BMI Calculator</a>
+                  <a href="/dailyUseTools/notes/notes.html" class="dropdown-item">Take Notes</a>
+                  <a href="/dailyUseTools/passwordGenerator/passwordGenerator.html" class="dropdown-item">Password Generator</a>
+                  <a href="#" class="dropdown-item">Demo</a>
+
+              </div>
+          </div>
+      <div class="btn-group d-none d-md-block py-2">
+        <button
+          type="button"
+          class="btn btn-link text-light dropdown-toggle text-decoration-none"
+          data-toggle="dropdown">
+          Finance Tools
+        </button>
+        <div class="dropdown-menu">
+          
+          <a href="/financeTools/compound-interest-calculator/compoundinterestcalculator.html" class="dropdown-item">Compound Interest Calculator</a>
+          <a href="/financeTools/discountcalculator/discount.html" class="dropdown-item">Discount Calculator</a>
+          <a href="/financeTools/emiCalculator/emi-calculator.html" class="dropdown-item">EMI Calculator</a>
+          <a href="/financeTools/mortgageCalculator/mortgageCalc.html" class="dropdown-item">Mortgage Calculator</a>
+          <a href="/financeTools/retirementcalaculator/index.html" class="dropdown-item">Retirement Calculator</a>
+          <a href="/financeTools/service-tax-calculator/tools.html" class="dropdown-item">Service Tax Calculator</a>
+          <a href="#" class="dropdown-item">Demo</a>
+
+        </div>
+      </div>
+
+      <div class="btn-group d-none d-md-block py-2">
+          <button type="button" class="btn btn-link text-light dropdown-toggle text-decoration-none" data-toggle="dropdown">Mathematical Tools</button>
+          <div class="dropdown-menu">
+
+              <a href="/mathmeticalTools/percentageCalculator/percentageCalculator.html" class="dropdown-item">Percentage Calculator</a>
+              <a href="/mathmeticalTools/decimalToFraction/decimalToFraction.html" class="dropdown-item">Decimal to Fraction</a>
+              <a href="#" class="dropdown-item">Demo</a>
+              
+          </div>
+      </div>
+
+      <div class="btn-group d-none d-md-block py-2">
+          <button type="button" class="btn btn-link text-light text-decoration-none"><a href="https://backgroundgradients.com/" class="text-light">Background Gradients</a> </button>
+          
+      </div>
+
+      </div>
+  </nav>
+  <!--  Navbar End  -->
+    <h1>Currency Converter</h1>
+    <div class="container">
+      <div class="currency">
+        <select id="from_currency">
+          <option value="AED">AED</option>
+          <option value="ARS">ARS</option>
+          <option value="AUD">AUD</option>
+          <option value="BGN">BGN</option>
+          <option value="BRL">BRL</option>
+          <option value="BSD">BSD</option>
+          <option value="CAD">CAD</option>
+          <option value="CHF">CHF</option>
+          <option value="CLP">CLP</option>
+          <option value="CNY">CNY</option>
+          <option value="COP">COP</option>
+          <option value="CZK">CZK</option>
+          <option value="DKK">DKK</option>
+          <option value="DOP">DOP</option>
+          <option value="EGP">EGP</option>
+          <option value="EUR">EUR</option>
+          <option value="FJD">FJD</option>
+          <option value="GBP">GBP</option>
+          <option value="GTQ">GTQ</option>
+          <option value="HKD">HKD</option>
+          <option value="HRK">HRK</option>
+          <option value="HUF">HUF</option>
+          <option value="IDR">IDR</option>
+          <option value="ILS">ILS</option>
+          <option value="INR">INR</option>
+          <option value="ISK">ISK</option>
+          <option value="JPY">JPY</option>
+          <option value="KRW">KRW</option>
+          <option value="KZT">KZT</option>
+          <option value="MXN">MXN</option>
+          <option value="MYR">MYR</option>
+          <option value="NOK">NOK</option>
+          <option value="NZD">NZD</option>
+          <option value="PAB">PAB</option>
+          <option value="PEN">PEN</option>
+          <option value="PHP">PHP</option>
+          <option value="PKR">PKR</option>
+          <option value="PLN">PLN</option>
+          <option value="PYG">PYG</option>
+          <option value="RON">RON</option>
+          <option value="RUB">RUB</option>
+          <option value="SAR">SAR</option>
+          <option value="SEK">SEK</option>
+          <option value="SGD">SGD</option>
+          <option value="THB">THB</option>
+          <option value="TRY">TRY</option>
+          <option value="TWD">TWD</option>
+          <option value="UAH">UAH</option>
+          <option value="USD" selected>USD</option>
+          <option value="UYU">UYU</option>
+          <option value="VND">VND</option>
+          <option value="ZAR">ZAR</option>
+        </select>
+        <input type="number" id="from_ammount" placeholder="" value="1" min="0"/>
+      </div>
+      <div class="middle">
+        <button id="exchange">
+          <i class="fas fa-exchange-alt">Swap</i>
+        </button>
+        <div class="rate" id="rate"></div>
+      </div>
+      <div class="currency">
+        <select id="to_currency">
+          <option value="AED">AED</option>
+          <option value="ARS">ARS</option>
+          <option value="AUD">AUD</option>
+          <option value="BGN">BGN</option>
+          <option value="BRL">BRL</option>
+          <option value="BSD">BSD</option>
+          <option value="CAD">CAD</option>
+          <option value="CHF">CHF</option>
+          <option value="CLP">CLP</option>
+          <option value="CNY">CNY</option>
+          <option value="COP">COP</option>
+          <option value="CZK">CZK</option>
+          <option value="DKK">DKK</option>
+          <option value="DOP">DOP</option>
+          <option value="EGP">EGP</option>
+          <option value="EUR">EUR</option>
+          <option value="FJD">FJD</option>
+          <option value="GBP">GBP</option>
+          <option value="GTQ">GTQ</option>
+          <option value="HKD">HKD</option>
+          <option value="HRK">HRK</option>
+          <option value="HUF">HUF</option>
+          <option value="IDR">IDR</option>
+          <option value="ILS">ILS</option>
+          <option value="INR" selected>INR</option>
+          <option value="ISK">ISK</option>
+          <option value="JPY">JPY</option>
+          <option value="KRW">KRW</option>
+          <option value="KZT">KZT</option>
+          <option value="MXN">MXN</option>
+          <option value="MYR">MYR</option>
+          <option value="NOK">NOK</option>
+          <option value="NZD">NZD</option>
+          <option value="PAB">PAB</option>
+          <option value="PEN">PEN</option>
+          <option value="PHP">PHP</option>
+          <option value="PKR">PKR</option>
+          <option value="PLN">PLN</option>
+          <option value="PYG">PYG</option>
+          <option value="RON">RON</option>
+          <option value="RUB">RUB</option>
+          <option value="SAR">SAR</option>
+          <option value="SEK">SEK</option>
+          <option value="SGD">SGD</option>
+          <option value="THB">THB</option>
+          <option value="TRY">TRY</option>
+          <option value="TWD">TWD</option>
+          <option value="UAH">UAH</option>
+          <option value="USD">USD</option>
+          <option value="UYU">UYU</option>
+          <option value="VND">VND</option>
+          <option value="ZAR">ZAR</option>
+        </select>
+        <input type="number" id="to_ammount" placeholder="0" min="0" />
+      </div>
+    </div>
+    <p id="source">Exchange Values provided by <a href="https://www.exchangerate-api.com/">ExchangeRate-API</a>.</p>
+    <span id="credit">Made by Asiesjhot</span>
+    <script src="currency.js"></script>
+  </body>
+</html>
