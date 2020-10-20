@@ -48,7 +48,7 @@ If you want to add Color Gradients to your code [click here](https://backgroundg
 - [ ] [current]
 - [ ] [force]
 - [ ] [sound]
-- [ ] [frequency]
+- [x] [frequency](conversionTools/frequency)
 - [x] [image](conversionTools/image)
 - [ ] [radiation]
 - [x] [resistence](conversionTools/resistance)
@@ -76,7 +76,7 @@ If you want to add Color Gradients to your code [click here](https://backgroundg
 - [x] [decimal to fraction](mathematicalTools/decimalToFraction)
 - [x] [Linear Equations](mathematicalTools/LinearEquation)
 - [x] [quadratic equations](mathematicalTools/quadratic)
-- [x] [cubic equations]
+- [x] [cubic equations](mathematicalTools/cubicEquation)
 - [x] [GCD, HCF, LCM](mathematicalTools/GCD_HCF_LCM_Calculator)
 - [ ] [expression evaluator]
 - [ ] [area]
@@ -100,7 +100,8 @@ If you want to add Color Gradients to your code [click here](https://backgroundg
 - [ ] [fixed deposit calculator]
 
 ### [Daily Use Tools](dailyUseTools)
-- [ ] [compass]
+- [x] [compass](dailyUseTools/compass)
+- [x] [color convertor](dailyUseTools/colorConverter)
 - [x] [morse convertor](dailyUseTools/morseConverter)
 - [ ] [scientific calculator]
 - [ ] [jwelery price]
@@ -120,7 +121,7 @@ If you want to add Color Gradients to your code [click here](https://backgroundg
 - Use descriptive commit messages
 - You can create an issue for the tool you want to claim and work on
 - You can only use javascript.
-- After completing the tool add it to the `assers/config/tools.js` under the related category
+- After completing the tool add it to the `assets/config/tools.js` under the related category
 - **FOLLOW THE DIRECTORY STRUCTURE AND NAMING CONVENTION**
 - **UPDATE THE `README.md` FILE AS YOU WORK ON A NEW TOOL**
 
