@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#6610f2" />
+    <link rel="icon" type="image/ico" href="/favicon.ico" />
+    <title>Color Converter</title>
+
+    <!--  Styles  -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/assets/styles/style.css" />
+    <script src="https://www.w3schools.com/lib/w3color.js"></script>
+  </head>
+  <body>
+        <!--  Navbar  -->
+        <nav class="site-header sticky-top py-1 text-light">
+          <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+              <a class="py-2 text-light" href="/index.html">
+                  <i class="fa fa-cogs fa-2x" aria-hidden="true"></i>
+              </a>
+    
+              <div class="btn-group d-none d-md-block py-2">
+                  <button type="button" class="btn btn-link text-light dropdown-toggle text-decoration-none" data-toggle="dropdown">Conversion Tools</button>
+                  <div class="dropdown-menu">
+                      
+                      <a href="/conversionTools/Angle_Conversion/angleconversions.html" class="dropdown-item">Angle Conversion Tool</a>
+                      <a href="/conversionTools/density/density.html" class="dropdown-item">Density Conversion Tool</a>
+                      <a href="/conversionTools/Energy/energy.html" class="dropdown-item">Energy Conversion Tool</a>
+                      <a href="/conversionTools/fuelEfficiency/fuel.html" class="dropdown-item">Fuel Efficiency Calculator</a>
+                      <a href="/conversionTools/image/image.html" class="dropdown-item">Image Conversion Tool</a>
+                      <a href="/conversionTools/imagePdf/imagePdf.html" class="dropdown-item">Image to PDF Conversion Tool</a>
+                      <a href="/conversionTools/length/length.html" class="dropdown-item">Length Conversion Tool</a>
+                      <a href="/conversionTools/power/power.html" class="dropdown-item">Power Conversion Tool</a>
+                      <a href="/conversionTools/pressure/pressure.html" class="dropdown-item">Pressure Conversion Tool</a>
+                      <a href="/conversionTools/temperture/temperture.html" class="dropdown-item">Temperture Conversion Tool</a>
+                      <a href="/conversionTools/Torque/torque.html" class="dropdown-item">Torque Conversion Tool</a>
+                      <a href="#" class="dropdown-item">Demo</a>
+    
+                  </div>
+              </div>
+    
+              <div class="btn-group d-none d-md-block py-2">
+                  <button type="button" class="btn btn-link text-light dropdown-toggle text-decoration-none" data-toggle="dropdown">Daily Use Tools</button>
+                  <div class="dropdown-menu">
+                      <a href="/dailyUseTools/bmicalculator/bmi-calculator.html" class="dropdown-item">BMI Calculator</a>
+                      <a href="/dailyUseTools/notes/notes.html" class="dropdown-item">Take Notes</a>
+                      <a href="/dailyUseTools/passwordGenerator/passwordGenerator.html" class="dropdown-item">Password Generator</a>
+                      <a href="/dailyUseTools/colorConverter/colorConverter.html" class="dropdown-item">Color Converter</a>
+                      <a href="#" class="dropdown-item">Demo</a>
+    
+                  </div>
+              </div>
+          <div class="btn-group d-none d-md-block py-2">
+            <button
+              type="button"
+              class="btn btn-link text-light dropdown-toggle text-decoration-none"
+              data-toggle="dropdown">
+              Finance Tools
+            </button>
+            <div class="dropdown-menu">
+              
+              <a href="/financeTools/compound-interest-calculator/compoundinterestcalculator.html" class="dropdown-item">Compound Interest Calculator</a>
+              <a href="/financeTools/discountcalculator/discount.html" class="dropdown-item">Discount Calculator</a>
+              <a href="/financeTools/emiCalculator/emi-calculator.html" class="dropdown-item">EMI Calculator</a>
+              <a href="/financeTools/mortgageCalculator/mortgageCalc.html" class="dropdown-item">Mortgage Calculator</a>
+              <a href="/financeTools/retirementcalaculator/index.html" class="dropdown-item">Retirement Calculator</a>
+              <a href="/financeTools/service-tax-calculator/tools.html" class="dropdown-item">Service Tax Calculator</a>
+              <a href="#" class="dropdown-item">Demo</a>
+    
+            </div>
+          </div>
+    
+          <div class="btn-group d-none d-md-block py-2">
+              <button type="button" class="btn btn-link text-light dropdown-toggle text-decoration-none" data-toggle="dropdown">Mathematical Tools</button>
+              <div class="dropdown-menu">
+    
+                  <a href="/mathmeticalTools/percentageCalculator/percentageCalculator.html" class="dropdown-item">Percentage Calculator</a>
+                  <a href="#" class="dropdown-item">Demo</a>
+                  
+              </div>
+          </div>
+    
+          </div>
+      </nav>
+      <!--  Navbar End  -->
+    <!--  Tools List  -->
+    <section class="container mb-12">
+      <div class="row">
+        <div class="col-md-12 col-lg-8 col-xl-6 mx-auto">
+            <h1>Color Converter</h1>
+            <hr class="mb-6">
+            <label for="color">Enter Color</label>
+            <div class="input-group mb-6">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">🖌</span>
+                </div>
+                <input type="text" name="color" id="color" class="form-control" placeholder="Please Enter color here" value="Gold">
+            </div>
+            <hr class="mb-6">
+            <div class="row">
+              <div class="input-group mb-3 col-md-6">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">RGB</span>
+                </div>
+                <input type="text" name="rgb" id="rgb" class="form-control" placeholder="RGB Color Value">
+              </div>
+              <br>
+              <div class="input-group mb-3 col-md-6">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">HEX</span>
+                </div>
+                <input type="text" name="hex" id="hex" class="form-control" placeholder="HEX Color Value">
+              </div>
+              <div class="input-group mb-3 col-md-6">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">CMYK</span>
+                </div>
+                <input type="text" name="cmyk" id="cmyk" class="form-control" placeholder="CMYK Color Value">
+              </div>
+              <div class="input-group mb-3 col-md-6">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">Name</span>
+                </div>
+                <input type="text" name="colorName" id="colorName" class="form-control" placeholder="Color Name">
+              </div>
+              <div class="input-group mb-3 col-md-6">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">HSL</span>
+                </div>
+                <input type="text" name="hsl" id="hsl" class="form-control" placeholder="HSL Color Value">
+              </div>
+              <div class="input-group mb-3 col-md-6">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">HWB</span>
+                </div>
+                <input type="text" name="hwb" id="hwb" class="form-control" placeholder="HWB Color Value">
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-md-4 text-center shadow mb-3 mx-auto py-10" id="previewBlack" style="color:black; text-shadow: white 0px 0px 10px;">
+                Color Preview
+              </div>
+              <div class="col-md-4 text-center shadow mb-3 mx-auto py-10" id="previewWhite" style="color: white; text-shadow: black 0px 0px 10px;">
+                Color Preview
+              </div>
+            </div>
+        </div>
+      </div>
+      <br>
+    </section>
+    <!--  Tools List End  -->
+
+    <!--  Footer  -->
+    <footer class="border-top py-3 px-4">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <p class="m-0">Copyright &copy; 2020 codeezzi</p>
+        </div>
+        <div class="col-md-6 text-md-right">
+          <a href="/contributors.html" target="_blank" class="text-dark"
+            >Contributors</a
+          >
+          <span class="text-muted mx-2">|</span>
+
+          <a href="#" class="text-dark">Terms of Use</a>
+          <span class="text-muted mx-2">|</span>
+          <a href="#" class="text-dark">Privacy Policy</a>
+        </div>
+      </div>
+    </footer>
+    <!--  Footer End  -->
+    <!--Scripts-->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        const processColor = (color) => {
+            let c = w3color(color);
+            console.log(c);
+            console.log(c.toName());
+
+            $('#rgb').val(c.toRgbString());
+            $('#hex').val(c.toHexString());
+            $('#cmyk').val(c.toCmykString());
+            $('#colorName').val(c.toName() || 'No valid color name');
+            $('#hsl').val(c.toHslString());
+            $('#hwb').val(c.toHwbString());
+
+            $('#previewBlack').css('background-color', c.toHexString());
+            $('#previewWhite').css('background-color', c.toHexString());
+
+        }
+
+        $(function(){
+          let colorValue = $('#color');
+
+          colorValue.on('input', function(e) {
+            processColor($(e.target).val());
+          });
+
+          colorValue.on('change', (e) => {
+            processColor($(e.target).val());
+          });
+
+          processColor(colorValue.val());
+
+        });
+
+        
+
+
+    </script>
+  </body>
+</html>
