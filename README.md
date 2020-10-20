@@ -11,6 +11,8 @@ Utility is meant to be a simple easy to use unit conversion website plus bunch o
 Visit the Website - http://codeezzi-utility.surge.sh/  or [click here](http://codeezzi-utility.surge.sh/).
 
 Our Contributors - [contributors](http://codeezzi-utility.surge.sh/contributors.html)
+
+If you want to add Color Gradients to your code [click here](https://backgroundgradients.com/) or  visit : https://backgroundgradients.com/  
  
 `Tools marked with ☑ are already completed`
 
@@ -49,7 +51,7 @@ Our Contributors - [contributors](http://codeezzi-utility.surge.sh/contributors.
 - [ ] [frequency]
 - [x] [image](conversionTools/image)
 - [ ] [radiation]
-- [ ] [resistence]
+- [x] [resistence](conversionTools/resistance)
 - [ ] [power]
 - [ ] [flow]
 - [x] [angle](conversionTools/Angle_Conversion)
@@ -65,17 +67,17 @@ Our Contributors - [contributors](http://codeezzi-utility.surge.sh/contributors.
 - [ ] [resolution]
 - [ ] [charge]
 
-### [Mathmetical Tools](mathmeticalTools)
-- [ ] [number base]
+### [Mathematical Tools](mathematicalTools)
+- [x] [number base](mathematicalTools/numberBase)
 - [x] [number series](mathmeticalTools/numberSeriesGenerator/numberSeriesGenerator.html)
-- [ ] [roman numericals]
-- [ ] [ratio]
-- [ ] [propotions]
-- [ ] [decimal to fraction]
-- [ ] [quadratic equations]
-- [ ] [cubic equations]
-- [ ] [GCD]
-- [ ] [LCM]
+- [x] [roman numericals](mathematicalTools/romanNumerals/romanNumerals.html)
+- [x] [ratio](mathematicalTools/ratio/ratio.html)
+- [x] [propotions](mathematicalTools/proportions)
+- [x] [decimal to fraction](mathematicalTools/decimalToFraction)
+- [x] [Linear Equations](mathematicalTools/LinearEquation)
+- [x] [quadratic equations](mathematicalTools/quadratic)
+- [x] [cubic equations]
+- [x] [GCD, HCF, LCM](mathematicalTools/GCD_HCF_LCM_Calculator)
 - [ ] [expression evaluator]
 - [ ] [area]
 - [ ] [volume]
@@ -99,7 +101,7 @@ Our Contributors - [contributors](http://codeezzi-utility.surge.sh/contributors.
 
 ### [Daily Use Tools](dailyUseTools)
 - [ ] [compass]
-- [ ] [morse convertor]
+- [x] [morse convertor](dailyUseTools/morseConverter)
 - [ ] [scientific calculator]
 - [ ] [jwelery price]
 - [ ] [fuel cost]

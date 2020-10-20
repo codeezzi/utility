@@ -1,0 +1,178 @@
+<html> 
+    <head> 
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="theme-color" content="#6610f2">
+      <link rel="icon" type="image/ico" href="../../favicon.ico"/>
+        <title>Cubic Equation Evaluator</title> 
+        <link rel="stylesheet" href="cubicEquation.css">
+        <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!--Scripts-->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <SCRIPT SRC='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></SCRIPT>
+        <SCRIPT>MathJax.Hub.Config({ tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}})</SCRIPT> 
+        <script src="cubicEquation.js"></script>
+        
+    
+    </head> 
+    <body style="background-color: rgba(173, 216, 230, 0.3);
+  font-family: 'Multi', sans-serif;"> 
+    <!--  Navbar  -->
+    <nav class="site-header sticky-top py-1 text-light">
+      <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+          <a class="py-2 text-light" href="/index.html">
+              <i class="fa fa-cogs fa-2x" aria-hidden="true"></i>
+          </a>
+
+          <div class="btn-group d-none d-md-block py-2">
+              <button type="button" class="btn btn-link text-light dropdown-toggle text-decoration-none" data-toggle="dropdown">Conversion Tools</button>
+              <div class="dropdown-menu">
+                  
+                  <a href="/conversionTools/Angle_Conversion/angleconversions.html" class="dropdown-item">Angle Conversion Tool</a>
+                  <a href="/conversionTools/density/density.html" class="dropdown-item">Density Conversion Tool</a>
+                  <a href="/conversionTools/Energy/energy.html" class="dropdown-item">Energy Conversion Tool</a>
+                  <a href="/conversionTools/fuelEfficiency/fuel.html" class="dropdown-item">Fuel Efficiency Calculator</a>
+                  <a href="/conversionTools/image/image.html" class="dropdown-item">Image Conversion Tool</a>
+                  <a href="/conversionTools/imagePdf/imagePdf.html" class="dropdown-item">Image to PDF Conversion Tool</a>
+                  <a href="/conversionTools/length/length.html" class="dropdown-item">Length Conversion Tool</a>
+                  <a href="/conversionTools/power/power.html" class="dropdown-item">Power Conversion Tool</a>
+                  <a href="/conversionTools/pressure/pressure.html" class="dropdown-item">Pressure Conversion Tool</a>
+                  <a href="/conversionTools/temperture/temperture.html" class="dropdown-item">Temperture Conversion Tool</a>
+                  <a href="/conversionTools/Torque/torque.html" class="dropdown-item">Torque Conversion Tool</a>
+                  <a href="#" class="dropdown-item">Demo</a>
+
+              </div>
+          </div>
+
+          <div class="btn-group d-none d-md-block py-2">
+              <button type="button" class="btn btn-link text-light dropdown-toggle text-decoration-none" data-toggle="dropdown">Daily Use Tools</button>
+              <div class="dropdown-menu">
+                  
+                  <a href="/dailyUseTools/bmicalculator/bmi-calculator.html" class="dropdown-item">BMI Calculator</a>
+                  <a href="/dailyUseTools/notes/notes.html" class="dropdown-item">Take Notes</a>
+                  <a href="/dailyUseTools/passwordGenerator/passwordGenerator.html" class="dropdown-item">Password Generator</a>
+                  <a href="#" class="dropdown-item">Demo</a>
+
+              </div>
+          </div>
+      <div class="btn-group d-none d-md-block py-2">
+        <button
+          type="button"
+          class="btn btn-link text-light dropdown-toggle text-decoration-none"
+          data-toggle="dropdown">
+          Finance Tools
+        </button>
+        <div class="dropdown-menu">
+          
+          <a href="financeTools/compound-interest-calculator/compoundinterestcalculator.html" class="dropdown-item">Compound Interest Calculator</a>
+          <a href="/financeTools/discountcalculator/discount.html" class="dropdown-item">Discount Calculator</a>
+          <a href="/financeTools/emiCalculator/emi-calculator.html" class="dropdown-item">EMI Calculator</a>
+          <a href="/financeTools/mortgageCalculator/mortgageCalc.html" class="dropdown-item">Mortgage Calculator</a>
+          <a href="/financeTools/retirementcalaculator/index.html" class="dropdown-item">Retirement Calculator</a>
+          <a href="/financeTools/service-tax-calculator/tools.html" class="dropdown-item">Service Tax Calculator</a>
+          <a href="#" class="dropdown-item">Demo</a>
+
+        </div>
+      </div>
+
+      <div class="btn-group d-none d-md-block py-2">
+          <button type="button" class="btn btn-link text-light dropdown-toggle text-decoration-none" data-toggle="dropdown">Mathematical Tools</button>
+          <div class="dropdown-menu">
+
+              <a href="/mathmeticalTools/percentageCalculator/percentageCalculator.html" class="dropdown-item">Percentage Calculator</a>
+              <a href="#" class="dropdown-item">Demo</a>
+              <a href="/mathmeticalTools/cubicEquation/cubicEquation.html" class="dropdown-item">Cubic Equation Solver</a>
+              
+          </div>
+      </div>
+
+      </div>
+  </nav>
+  <!-- navbar end -->
+  <section class="hero-section overflow-hidden py-3 mb-3 text-center text-md-left text-light">
+    <div class="container-xl">
+      <div class="row">
+            <div class="col-0">
+<div class="hero-section__graphic position-relative m-auto">
+                    <svg class="hero-section__icon" height="569pt" viewBox="0 0 569 569.54905" width="569pt" xmlns="http://www.w3.org/2000/svg"><path d="M 240, 230
+                      a 25,25 0 1,1 50,0
+                      a 25,25 0 1,1 -50,0"
+                      />
+                    <path d="m396.3125 187.144531-208.902344 208.90325-13.429687-13.429687 208.90625-208.902310zm0 0"/>
+                    <path
+                      d="M 290, 330
+                        a 25,25 0 1,1 50,0
+                        a 25,25 0 1,1 -50,0"
+                    />
+                    </svg>
+                </div></div>
+                <div class="col align-self-center text-center">
+                <h1 class="text-white mb-2">Cubic Equation Evaluator</h1>
+              </div>
+        </div>
+
+       </div>
+     </section>
+     <div id="calculatorWrap"> 
+      <form  class="calculatorForm" id="CalculatorForm" name="CalculatorForm" onsubmit="calculateButtonWorking()">
+          <div itemprop="name" class="calculatorTitle"> Cubic Equation Calculator</div>
+          <div class="calculatorInputs"><span class="MathJax_Preview" style="color: inherit;"></span><div class="MathJax_Display" style="text-align: center;"><span class="MathJax" id="MathJax-Element-1-Frame" tabindex="0" style="text-align: center; position: relative;" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;><mi>a</mi><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mi>b</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>c</mi><mi>x</mi><mo>+</mo><mi>d</mi><mo>=</mo><mn>0</mn></math>" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-1" style="width: 12.132em; display: inline-block;"><span style="display: inline-block; position: relative; width: 10.095em; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(1.16em, 1010.05em, 2.41em, -999.998em); top: -2.174em; left: 0em;"><span class="mrow" id="MathJax-Span-2"><span class="mi" id="MathJax-Span-3" style="font-family: MathJax_Math-italic;">a</span><span class="msubsup" id="MathJax-Span-4"><span style="display: inline-block; position: relative; width: 1.021em; height: 0px;"><span style="position: absolute; clip: rect(3.382em, 1000.51em, 4.123em, -999.998em); top: -3.979em; left: 0em;"><span class="mi" id="MathJax-Span-5" style="font-family: MathJax_Math-italic;">x</span><span style="display: inline-block; width: 0px; height: 3.984em;"></span></span><span style="position: absolute; top: -4.396em; left: 0.558em;"><span class="mn" id="MathJax-Span-6" style="font-size: 70.7%; font-family: MathJax_Main;">3</span><span style="display: inline-block; width: 0px; height: 3.984em;"></span></span></span></span><span class="mo" id="MathJax-Span-7" style="font-family: MathJax_Main; padding-left: 0.234em;">+</span><span class="mi" id="MathJax-Span-8" style="font-family: MathJax_Math-italic; padding-left: 0.234em;">b</span><span class="msubsup" id="MathJax-Span-9"><span style="display: inline-block; position: relative; width: 1.021em; height: 0px;"><span style="position: absolute; clip: rect(3.382em, 1000.51em, 4.123em, -999.998em); top: -3.979em; left: 0em;"><span class="mi" id="MathJax-Span-10" style="font-family: MathJax_Math-italic;">x</span><span style="display: inline-block; width: 0px; height: 3.984em;"></span></span><span style="position: absolute; top: -4.396em; left: 0.558em;"><span class="mn" id="MathJax-Span-11" style="font-size: 70.7%; font-family: MathJax_Main;">2</span><span style="display: inline-block; width: 0px; height: 3.984em;"></span></span></span></span><span class="mo" id="MathJax-Span-12" style="font-family: MathJax_Main; padding-left: 0.234em;">+</span><span class="mi" id="MathJax-Span-13" style="font-family: MathJax_Math-italic; padding-left: 0.234em;">c</span><span class="mi" id="MathJax-Span-14" style="font-family: MathJax_Math-italic;">x</span><span class="mo" id="MathJax-Span-15" style="font-family: MathJax_Main; padding-left: 0.234em;">+</span><span class="mi" id="MathJax-Span-16" style="font-family: MathJax_Math-italic; padding-left: 0.234em;">d<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.002em;"></span></span><span class="mo" id="MathJax-Span-17" style="font-family: MathJax_Main; padding-left: 0.28em;">=</span><span class="mn" id="MathJax-Span-18" style="font-family: MathJax_Main; padding-left: 0.28em;">0</span></span><span style="display: inline-block; width: 0px; height: 2.178em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.164em; border-left: 0px solid; width: 0px; height: 1.281em;"></span></span></nobr><span class="MJX_Assistive_MathML MJX_Assistive_MathML_Block" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><mi>a</mi><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mi>b</mi><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>c</mi><mi>x</mi><mo>+</mo><mi>d</mi><mo>=</mo><mn>0</mn></math></span></span></div><script type="math/tex; mode=display" id="MathJax-Element-1"> </script>
+              <div class="calculatorInputGroup">
+                  <label for="a">a =</label>
+                  <input name="a" id="a" value="" class="nmbr_real real" type="text" title="real number" placeholder="coefficient a" required="" autofocus="">
+              </div>
+              <div class="calculatorInputGroup">
+                  <label for="b">b =</label>
+                  <input name="b" id="b" value="" class="nmbr_real real" type="text" title="real number" placeholder="coefficient b" required="">
+              </div>
+              <div class="calculatorInputGroup">
+                  <label for="c">c =</label>
+                  <input name="c" id="c" value="" class="nmbr_real real" type="text" title="real number" placeholder="coefficient c" required="">
+              </div>
+              <div class="calculatorInputGroup">
+                  <label for="d">d =</label>
+                  <input name="d" id="d" value="" class="nmbr_real real" type="text" title="real number" placeholder="coefficient d" required="">
+              </div>
+          </div>
+          <!--
+          Buttons and Answer and Links
+          -->
+          <div class="calculatorButton floatRight" id="actionCalculate">
+              <input type="submit" value="Calculate" class="btn" name="calculateButton" id="calculateButton">
+          </div>
+          <div class="calculatorButton floatLeft" id="actionClear">
+              <input type="reset" name="reset" value="Clear" class="btn" onclick="return resetCalculator(this.form);">
+          </div>
+          <div class="clearBoth"></div>
+          <div id="calculatorAnswer"> Answer:
+              <br>
+              <div id="answer"><br></div>
+          </div>
+          <input type="hidden" name="action" value="solve">
+          <input type="hidden" name="page_id" value="MTYwMjc0MDU2Mg==">
+      </form>
+      </div>
+  <!--  Footer  -->
+  <footer class="border-top py-3 px-4">
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <p class="m-0">Copyright &copy; 2020 codeezzi</p>
+            <p class="m-0">Page Created by <a href="https://github.com/Satyam-kumar-yadav" target="_blank">Satyam Kumar Yadav</a></p>
+        </div>
+        <div class="col-md-6 text-md-right">
+          <a href="../../contributors.html" class="text-dark" target="blank">Contributors</a>
+            <span class="text-muted mx-2">|</span>
+            <a href="#" class="text-dark">Terms of Use</a>
+            <span class="text-muted mx-2">|</span>
+            <a href="#" class="text-dark">Privacy Policy</a>
+        </div>
+    </div>
+</footer>
+<!--  Footer End  -->
+</body>
+</html>

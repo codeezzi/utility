@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+
+input {
+  font-size: 1.2rem;
+}
+.container {
+  background: #fdfdfd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1.5rem;
+  width: content;
+  box-shadow: 0 5px 20px darkgray;
+  height: 50vh;
+}
+.currency,
+.middle {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.currency {
+  display: flex;
+  justify-content: space-between;
+}
+.middle {
+  display: flex;
+  border-bottom: 1px solid lightgray;
+  border-top: 1px solid lightgrey;
+  font-size: 1.5rem;
+}
+.middle > button {
+  background-color: #fff;
+  border: 2px solid #ecf0f1;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #f59300;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+  transform: rotate(90deg);
+}
+#home__link {
+  text-decoration: none;
+  padding: 1rem;
+}
+#credit {
+  color: dimgrey;
+  position: absolute;
+  bottom: 1rem;
+}
+#from_amount,
+#from_currency,
+#to_amount,
+#to_currency {
+  font-size: 1.2rem;
+}
+#source {
+  color: dimgray;
+}
+#source > a {
+  color: gray;
+}
