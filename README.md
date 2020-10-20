@@ -101,6 +101,7 @@ If you want to add Color Gradients to your code [click here](https://backgroundg
 
 ### [Daily Use Tools](dailyUseTools)
 - [ ] [compass]
+- [x] [color convertor](dailyUseTools/colorConverter)
 - [x] [morse convertor](dailyUseTools/morseConverter)
 - [ ] [scientific calculator]
 - [ ] [jwelery price]
