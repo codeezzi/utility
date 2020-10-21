@@ -66,6 +66,7 @@ If you want to add Color Gradients to your code [click here](https://backgroundg
 - [ ] [surface tension]
 - [ ] [resolution]
 - [ ] [charge]
+- [x] [storage](conversionTools/storage/storage.html)
 
 ### [Mathematical Tools](mathematicalTools)
 - [x] [number base](mathematicalTools/numberBase)
