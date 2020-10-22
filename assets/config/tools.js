@@ -22,6 +22,11 @@ const UTILITY_TOOLS ={
       "url": "/Energy/energy.html"
     },
     {
+      "title": "Frequency Calculator",
+      "description": "A tool to calculate frequency",
+      "url": "/frequency/frequency.html"
+    },
+    {
       "title": "Fuel Efficiency Conversion",
       "description": "A tool to convert fuel efficiency",
       "url": "/fuelEfficiency/fuel.html"
@@ -77,6 +82,16 @@ const UTILITY_TOOLS ={
       "title": "BMI Calculator",
       "description": "A tool to calculate body BMI",
       "url": "/bmicalculator/bmi-calculator.html"
+    },
+    {
+      "title": "Color Converter",
+      "description": "A tool to covert units of color like hex to RGB and vice-versa",
+      "url": "/colorConverter/colorConverter.html"
+    },
+    {
+      "title": "Compass",
+      "description": "A Compass tool",
+      "url": "/compass/Compass.html"
     },
     {
       "title": "Morse Converter",
@@ -153,9 +168,24 @@ const UTILITY_TOOLS ={
       "url": "/numberBase/linearEquation.html"
     },
     {
+      "title": "Number Series Generator",
+      "description": "A tool to Generate Number Series",
+      "url": "/numberSeriesGenerator/numberSeriesGenerator.html"
+    },
+    {
       "title": "Percentage Calculator",
       "description": "A tool to calculate percentages",
       "url": "/percentageCalculator/percentageCalculator.html"
+    },
+    {
+      "title": "Proportions Calculator",
+      "description": "A tool to calculate proportions",
+      "url": "/proportions/proportions.html"
+    },
+    {
+      "title": "Quadratic Equations Evaluater",
+      "description": "A tool to Evaluate Quadratic Equations",
+      "url": "/quadratic/quadratic.html"
     },
     {
       "title": "Ratio Calculator",
