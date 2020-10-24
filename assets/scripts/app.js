@@ -4,7 +4,8 @@
 * Created by Negar Jamalifard
 * */
 
-(function (){
+$(document).ready(function () {
     const template = new Templates();
+
     template.appendNavItems();
-})()
+});
