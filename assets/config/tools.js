@@ -131,6 +131,11 @@ const UTILITY_TOOLS ={
       "url": "/mortgageCalculator/mortgageCalc.html"
     },
     {
+      "title": "Retirement Calculator",
+      "description": "A tool to calculate Retirement funds",
+      "url": "/retirementcalaculator/index.html"
+    },
+    {
       "title": "Service Tax Calculator",
       "description": "A tool to calculate service tax",
       "url": "/service-tax-calculator/tools.html"
@@ -165,7 +170,7 @@ const UTILITY_TOOLS ={
     {
       "title": "Number Base Converter",
       "description": "A tool to converts number base",
-      "url": "/numberBase/linearEquation.html"
+      "url": "/numberBase/numberBase.html"
     },
     {
       "title": "Number Series Generator",
