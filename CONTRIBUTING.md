@@ -5,7 +5,7 @@
 - Use descriptive commit messages
 - You can create an issue for the tool you want to claim and work on
 - You can only use javascript.
-- After completing the tool add it to the `assers/config/tools.js` under the related category
+- After completing the tool add it to the `assets/config/tools.js` under the related category
 - **FOLLOW THE DIRECTORY STRUCTURE AND NAMING CONVENTION**
 - **UPDATE THE `README.md` FILE AS YOU WORK ON A NEW TOOL**
 
@@ -18,12 +18,12 @@
 - Please make sure your folder is in any one of the Folder `conversionTools`,`mathmeticlaTools`,`financeTools` or `dailyUseTools`. For example if you want to work on length conversion tool then place your folder in the `conversionTools` folder. The list for tools with their respective folder is mentioned above 
 - The name of your folder should be the name o the tool you are working on for example: if you want to work on length conversion tool, Then name your folder would be `length`.
 - Under your folder name your files as follows. For length conversion tool the files would be `length.html`, `length.css`,`length.js`
+- Copy the content of `boilerplate.template` to your tool's html file and follow the comments marked with **$**.
 - At the end link your files properly
 - Add your name to the footer of your tool's html you are working on. For example if you are working on length conversion tool then  
 add your name in the footer of `lenght.html`.
-- `Add navbar` in your tool's HTML file you can `copy the navbar from index.html`
 - `Add screenShot` of your Tool in PR Message and in your Tool's Folder.
-- At the end add your tool to the `assers/config/tools.js` under the related category
+- At the end add your tool to the `assets/config/tools.js` under the related category
 
 ### Tools.js
 - Find your tool's category

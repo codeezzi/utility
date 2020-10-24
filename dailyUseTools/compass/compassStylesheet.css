@@ -1,0 +1,97 @@
+body {
+    background: -webkit-linear-gradient(left, #6c4bf2, #6c4bf2);
+    }
+.hero-section__graphic{
+    height:320px;
+    width:310px;
+}
+.compass {
+    position: relative;
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    background-color:rgba(255,255,255,1);
+    }
+
+.compass > .arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-style: solid;
+    border-width: 30px 20px 0 20px;
+    border-color: red transparent transparent transparent;
+    z-index: 1;
+    }
+
+.compass > .compass-circle,
+.compass > .my-point {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.1s ease-out;
+    background: url('images/compass_dial.png')
+    center no-repeat;
+    background-size: contain;
+    }
+
+.compass > .my-point {
+    opacity: 0;
+    width: 20%;
+    height: 20%;
+    background: rgb(8, 223, 69);
+    border-radius: 50%;
+    transition: opacity 0.5s ease-out;
+    }
+
+.start-btn:hover {
+    color: #9050AA;
+    border-color: currentColor;
+    background-color: wheat;
+    }
+      
+      /* make sure we have a visible focus ring */
+.start-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255, 105, 180, 0.5),
+      0 0 0 1.5px rgba(255, 105, 180, 0.5);
+    }
+
+.start-btn:active {
+    transform: translateY(2px);
+    filter: saturate(150%);
+    }
+
+.Center-btn{
+    text-align: center;
+    }
+
+.marginDiv{
+    margin-top: 80px;
+    }
+
+.start-btn{    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    padding: 0.5em 1em;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    color: #000000;
+    background-color: #BB99FF;
+    margin:50px 0px 50px 0px;
+    }
+footer {
+    width: 100%;
+    position: fixed;
+    padding-bottom: 20px;
+    bottom: 0;
+    left: 0;
+    background-color: antiquewhite;
+}
