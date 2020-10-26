@@ -76,6 +76,11 @@ const UTILITY_TOOLS ={
       "description": "A tool to convert torque units",
       "url": "/Torque/torque.html"
     }
+    {
+      "title": "Weight Conversion",
+      "description": "A tool to convert Weight units",
+      "url": "/weight/weight.html"
+    }
   ],
   "dailyUseTools": [
     {
