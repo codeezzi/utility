@@ -80,7 +80,7 @@ If you want to add Color Gradients to your code [click here](https://backgroundg
 - [x] [GCD, HCF, LCM](mathematicalTools/GCD_HCF_LCM_Calculator)
 - [ ] [expression evaluator]
 - [ ] [area]
-- [ ] [volume]
+- [x] [volume](mathematicalTools/volume)
 - [ ] [surface area]
 - [ ] [parameter]
 - [ ] [binary]
