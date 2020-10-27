@@ -24,9 +24,10 @@ class Templates {
         )
     };
 
-    static dropdownMenuTemplate (url, title) {        
+    static dropdownMenuTemplate (url, title) {
+        const URL = "http://codeezzi-utility.surge.sh/";        
         const basePath = window.location.pathname.substr(1).split('/')[0];
-        return (`<a href="/${basePath}/${url}" class="dropdown-item">${title}</a>`)
+        return (`<a href="${URL}/${basePath}/${url}" class="dropdown-item">${title}</a>`)
     }
 
 
