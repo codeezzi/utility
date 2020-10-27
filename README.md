@@ -37,7 +37,7 @@ If you want to add Color Gradients to your code [click here](https://backgroundg
 ### [Conversion tools](conversionTools)
 - [x] [Temperture](conversionTools/temperture/temperture.html)
 - [x] [Length](conversionTools/length)
-- [ ] [weight]
+- [x] [weight]conversionTools/weight/weight.html)
 - [x] [speed](conversionTools/speed/speed.html)
 - [ ] [currency]
 - [ ] [time]
