@@ -67,6 +67,11 @@ const UTILITY_TOOLS ={
       "url": "/speed/speed.html"
     },
     {
+      "title": "Storage Conversion",
+      "description": "A tool to convert Digital Storage units",
+      "url": "/storage/storage.html"
+    },
+    {
       "title": "Temperature Conversion",
       "description": "A tool to convert temperature units",
       "url": "/temperture/temperture.html"
@@ -75,7 +80,7 @@ const UTILITY_TOOLS ={
       "title": "Torque Conversion",
       "description": "A tool to convert torque units",
       "url": "/Torque/torque.html"
-    }
+    },
     {
       "title": "Weight Conversion",
       "description": "A tool to convert Weight units",
@@ -206,6 +211,11 @@ const UTILITY_TOOLS ={
       "title": "Roman Numbers Convertor",
       "description": "A tool to convert numbers tp roman numbers",
       "url": "/romanNumerals/romanNumerals.html"
+    },
+    {
+      "title": "scientific calcuator",
+      "description": "scientific calcuator",
+      "url": "/scientific-calcuator/sci-calc.html"
     },
     {
       "title": "Volume Conversion",
