@@ -24,8 +24,9 @@ class Templates {
         )
     };
 
-    static dropdownMenuTemplate (url, title) {
-        return (`<a href="${url}" class="dropdown-item">${title}</a>`)
+    static dropdownMenuTemplate (url, title) {        
+        const basePath = window.location.pathname.substr(1).split('/')[0];
+        return (`<a href="/${basePath}/${url}" class="dropdown-item">${title}</a>`)
     }
 
 
