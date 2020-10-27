@@ -1,0 +1,188 @@
+
+
+/*
+*----------------------------------------------------------------
+* SITE HEADER
+*----------------------------------------------------------------
+*/
+.site-header {
+    background-color: rgba(0, 0, 0, 0.85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+  /*
+  *----------------------------------------------------------------
+  * heading
+  *----------------------------------------------------------------
+  */
+  .heading
+  {  
+      /* margin-top: 50px; */
+      text-align: center;
+  }
+  /*
+  *----------------------------------------------------------------
+  * container
+  *----------------------------------------------------------------
+  */
+  .container_wrapper
+  {
+      width: 90%;
+      height: auto;
+      display: flex;
+      margin: .5rem auto auto;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: white;
+  }
+  /*
+  *----------------------------------------------------------------
+  * wrapper
+  *----------------------------------------------------------------
+  */
+  .storage__wrapper
+  {
+      width: 90%;
+      margin: .5rem auto auto;
+	  align-items: center;
+      display: flex;
+      border-radius: 1rem;
+      height: auto;
+      flex-direction: column;
+      justify-content: center;
+      background-color: var(--indigo);
+	  padding: 2rem 0;
+	  box-shadow: 1px 2px 20px #2828288c;
+	  
+
+  }
+  /*
+  *----------------------------------------------------------------
+  * container
+  *----------------------------------------------------------------
+  */
+  .storage__container
+  {
+      display: flex;  
+      flex-direction: column;
+      margin: 0 auto;
+  }
+  .storage__container p
+{
+      margin-bottom: 0.5rem;
+}
+  /*
+  *----------------------------------------------------------------
+  * value ,result, button container
+  *----------------------------------------------------------------
+  */
+  .value__container,
+  .result__container,
+  .button__container
+  {
+      margin: 10px auto;
+  }
+  /*
+  *----------------------------------------------------------------
+  * value ,result dropdown box
+  *----------------------------------------------------------------
+  */
+  #conversion_value,
+  #conversion_result
+  {
+      color: Black;
+      /* #fff */
+      background-color: mediumturquoise;
+      border-color: #020405;
+      outline: none;
+  
+  }
+  /*
+  *----------------------------------------------------------------
+  * convert button
+  *----------------------------------------------------------------
+  */
+  #convert_button
+  {
+      color: #fff;
+      background-color: #4CAF50;
+      border-color: #07090a;
+      outline: none;
+	  font-weight: 500;
+  }
+  
+
+  input,select
+  {
+	padding: 0.5rem;
+	border-radius: 0.4rem;
+	border: 1px solid #abaaaa;
+	min-width: 12.5rem;
+  }
+
+  /*
+*----------------------------------------------------------------
+* HERO SECTION
+*----------------------------------------------------------------
+*/
+.hero-section {
+    background-color: var(--indigo);
+  }
+    
+  .hero-section__graphic,
+  .hero-section__graphic:before,
+  .hero-section__graphic:after {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 300px;
+    height: 200px;
+    border-radius: 40% 30% 30% 40% / 60% 40% 60% 40%;
+  }
+  
+  .hero-section__graphic:before,
+  .hero-section__graphic:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation: float 10s infinite linear;
+  }
+  .hero-section__graphic:after {
+    animation-direction: reverse;
+    animation-delay: 500ms;
+  }
+  
+  .hero-section__icon {
+    fill: var(--light);
+    width: 100%;
+    height: auto;
+  } 
+
+  @keyframes float {
+    0% {
+      transform: translate(0%, 0%) rotate(0);
+    }
+  
+    33% {
+      transform: translate(2%, 2%) rotate(120deg);
+    }
+  
+    66% {
+      transform: translate(2%, -2%) rotate(240deg);
+    }
+  
+    to {
+      transform: translate(0%, 0%) rotate(360deg);
+    }
+  }
+
+
+  /* Testing */
+  img {
+    width: 135px;
+    height: 135px;
+     position: relative;
+     left: 83px;
+     top: 30px;
+  }
