@@ -45,7 +45,7 @@
 .hero-section__graphic:after {
   background-color: rgba(255, 255, 255, 0.1);
   width: 300px;
-  height: 300px;
+  height: 100%;
   border-radius: 40% 30% 30% 40% / 60% 40% 60% 40%;
 }
 
