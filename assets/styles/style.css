@@ -69,6 +69,31 @@
   height: auto;
 }
 
+.lead{
+  line-height: 1.4rem;
+  font-size: 1rem;
+}
+.form-group {
+  margin-top: 80px;
+}
+
+.form-group a{
+  display: block;
+  text-decoration: none;
+  transition: 0.5s;
+  font-size: 1rem;
+}
+.form-group a:hover{
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.85);
+}
+
+.card{
+  transition: 0.5s;
+}
+.card:hover{
+  transform: translateY(-5px);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+}
 @keyframes float {
   0% {
     transform: translate(0%, 0%) rotate(0);
